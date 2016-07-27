@@ -2,7 +2,7 @@
 Mato is a Material Design inspired icon theme for Linux. It features simple and modern icons based on the official icons. Although this icon theme is based on the Material Design Guidelines, I don't follow them 100%.
 
 ## Install
-You can install Mato by executing the following command in bash.
+You can install Mato by executing the following command in your terminal.
 ```bash
 cd ~/.icons/; rm -rf Mato/; git clone https://github.com/flipflop97/Mato.git;
 ```
