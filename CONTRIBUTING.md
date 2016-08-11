@@ -1,5 +1,5 @@
 # Create an issue
-When creating an issue about an icon (like icon requests), please add the following information:
+Please create a seperate issue each icon. When creating an issue about an icon (like icon requests), please add the following information:
 
 ## icon name
 Name of the file of the icon.
