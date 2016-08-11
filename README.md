@@ -12,7 +12,7 @@ cd ~/.icons/; rm -rf Mato/; git clone https://github.com/flipflop97/Mato.git;
 ```
 
 ## Request icons
-Until the icon theme has most of the basic icons, please don't request any icons.
+If you want to request an icon, create an issue for it. Please read [the guidelines](CONTRIBUTING.md) before doing so.
 
 ## License
 This icon pack is licenced under [Creative Commons Attribution-ShareAlike 4.0 International](https://tldrlegal.com/license/creative-commons-attribution-sharealike-4.0-international-(cc-by-sa-4.0)).
