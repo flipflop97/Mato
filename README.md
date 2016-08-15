@@ -8,7 +8,7 @@ Mato is a Material Design inspired icon theme for Linux. It features simple and 
 ## Install
 You can install and update Mato by executing the following command in your terminal.
 ```bash
-cd ~/.icons/; rm -rf Mato/; git clone https://github.com/flipflop97/Mato.git;
+sh -c 'cd /tmp; rm -rf Mato/; git clone https://github.com/flipflop97/Mato.git; cd Mato; ./install.sh'
 ```
 
 ## Request icons
