@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/bin/bash
 pushd `dirname $0` > /dev/null
 rm -rf ~/.icons/Mato/
 cp -r ./ ~/.icons/Mato/
