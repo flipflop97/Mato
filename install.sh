@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-pushd `dirname $0` > /dev/null
+cd `dirname $0`
 rm -rf ~/.icons/Mato/
 cp -r ./ ~/.icons/Mato/
 gsettings reset org.gnome.desktop.interface icon-theme
