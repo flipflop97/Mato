@@ -1,7 +1,7 @@
 [Icon Theme]
 Name=Mato
 Comment=A Material Design inspired clean icon theme
-Inherits=Adwaita,gnome,hicolor
+Inherits=Paper,Adwaita,gnome,hicolor
 Example=folder
 
 Directories=actions,applications,categories,devices,emblems,emotes,mimetypes,status,places
