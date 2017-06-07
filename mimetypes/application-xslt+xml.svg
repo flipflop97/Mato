@@ -15,7 +15,7 @@
    version="1.1"
    inkscape:version="0.92.1 r"
    viewBox="0 0 48 48"
-   sodipodi:docname="application-xml.svg">
+   sodipodi:docname="application-xslt+xml.svg">
   <defs
      id="defs4154">
     <filter
@@ -243,19 +243,19 @@
        ry="2"
        clip-path="url(#clipPath4268)" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#ff9800;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;fill-rule:evenodd;stroke:#4caf50;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 26,-7 22,3"
        id="path4168"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#ff9800;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;fill-rule:evenodd;stroke:#4caf50;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 18,-6 -4,4 4,4"
        id="path4170"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#ff9800;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;fill-rule:evenodd;stroke:#4caf50;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 30.010142,2.0000002 4,-4 -4,-4"
        id="path4170-3"
        inkscape:connector-curvature="0"
