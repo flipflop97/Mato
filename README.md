@@ -1,6 +1,8 @@
 # Mato
 ![Screenshot](http://i.imgur.com/uykTYWO.png)
 
+*Screenshot: Mato icons on [GNOME](https://www.gnome.org/) desktop with [Flat-Plat](https://github.com/nana-4/Flat-Plat) theme*
+
 Mato is a Material Design inspired icon theme for Linux. It features simple and modern icons based on the official icons. Although this icon theme is based on the Material Design Guidelines, I don't follow them 100%.
 
 *Mato is currently in development, many icons are missing or will be changed.*
