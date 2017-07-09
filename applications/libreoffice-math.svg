@@ -13,7 +13,7 @@
    height="48"
    id="svg4152"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.1 r"
    viewBox="0 0 48 48"
    sodipodi:docname="libreoffice-math.svg">
   <defs
@@ -331,8 +331,8 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="15.696216"
-     inkscape:cx="0.40507181"
-     inkscape:cy="25.39198"
+     inkscape:cx="20.216861"
+     inkscape:cy="17.772961"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
@@ -403,5 +403,21 @@
        id="rect4201"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="csscc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#9e9e9e;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 14,0 5,5 V -7 h 14"
+       id="path874"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#9e9e9e;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 31,-3 23,5"
+       id="path876"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#9e9e9e;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 23,-3 8,8"
+       id="path878"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>
