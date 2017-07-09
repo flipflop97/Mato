@@ -13,7 +13,7 @@
    height="48"
    id="svg4152"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.1 r"
    viewBox="0 0 48 48"
    sodipodi:docname="application-x-partial-download.svg">
   <defs
@@ -177,11 +177,11 @@
      borderopacity="0.49803922"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="15.696216"
-     inkscape:cx="20.915205"
-     inkscape:cy="22.630215"
+     inkscape:zoom="7.848108"
+     inkscape:cx="11.319986"
+     inkscape:cy="25.911486"
      inkscape:current-layer="layer1"
-     showgrid="false"
+     showgrid="true"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
      inkscape:showpageshadow="false"
@@ -243,14 +243,14 @@
        ry="2"
        clip-path="url(#clipPath4268)" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#616161;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 31,7 17,7"
+       style="fill:none;fill-rule:evenodd;stroke:#4caf50;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 31,8 H 17"
        id="path4165"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#616161;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 31,-4 -7,7 0,-14 0,14 -7,-7"
+       style="fill:none;fill-rule:evenodd;stroke:#4caf50;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 31,-3 24,4 V -12 4 l -7,-7"
        id="path4167"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />

@@ -13,7 +13,7 @@
    height="48"
    id="svg4152"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.1 r"
    viewBox="0 0 48 48"
    sodipodi:docname="text-x-tex.svg">
   <defs
@@ -178,7 +178,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="11.098901"
-     inkscape:cx="24.254579"
+     inkscape:cx="4.3426976"
      inkscape:cy="13.707676"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -243,19 +243,19 @@
        ry="2"
        clip-path="url(#clipPath4268)" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#616161;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;fill-rule:evenodd;stroke:#009688;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 14,-7 3,0 0,8 0,-8 3,0"
        id="path4185"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#616161;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;fill-rule:evenodd;stroke:#009688;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 26,-3 -5,0 0,4 3,0 -3,0 0,4 5,0"
        id="path4187"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccc" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#616161;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;fill-rule:evenodd;stroke:#009688;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 28,-7 3,4 3,-4 -6,8 3,-4 3,4"
        id="path4189"
        inkscape:connector-curvature="0"
