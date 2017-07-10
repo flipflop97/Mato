@@ -53,7 +53,7 @@
             .block {
                 margin: 48px auto 48px auto;
                 padding: 0 24px 0 24px;
-                max-width: 1024px;
+                max-width: 1200px;
                 text-align: center;
             }
             .block.small {
@@ -95,6 +95,17 @@
                 width: 96px;
                 height: 96px;
                 margin: auto;
+                box-sizing: border-box;
+            }
+            .icon-img.symbolic {
+                opacity: 0.54;
+                width: 88px;
+                height: 88px;
+                padding: 28px;
+                margin-top: 4px;
+                margin-bottom: 4px;
+                background-color: #E4E4E4;
+                border-radius: 4px;
             }
 
             .icon-label {
@@ -108,27 +119,29 @@
 
             function getIcons(group) {
                 var url = 'https://api.github.com/repos/flipflop97/Mato/contents/' + group;
+                var container = document.getElementById('icons-' + group);
 
                 var xmlHttp = new XMLHttpRequest();
                 xmlHttp.onreadystatechange = function() { 
                     if (xmlHttp.readyState == 4 && xmlHttp.status == 200) {
                         var contents = JSON.parse(xmlHttp.responseText);
-                        var container = document.getElementById('icons-' + group);
 
                         contents.forEach(function(iconData, index) {
-                            var file = iconData['name']
+                            var file = iconData['name'];
                             var src = group + '/' + file;
-                            var name = file.substring(0, file.length - 4);;
+                            var name = file.substring(0, file.length - 4);
+                            var symbolic = name.endsWith('-symbolic') || name.endsWith('-symbolic-rtl');
 
                             var icon = document.createElement('div');
                             icon.classList.add('icon');
 
                             var iconImg = document.createElement('img');
                             iconImg.classList.add('icon-img');
+                            if (symbolic) {iconImg.classList.add('symbolic')};
                             iconImg.src = src;
                             icon.appendChild(iconImg);
 
-                            var iconLabel = document.createElement('div', {text: 'libreoffice-impress'});
+                            var iconLabel = document.createElement('div');
                             iconLabel.classList.add('icon-label');
                             var iconText = document.createTextNode(name);
                             iconLabel.appendChild(iconText);
@@ -136,6 +149,13 @@
 
                             container.appendChild(icon);
                         });
+                    }
+                    else if (xmlHttp.readyState == 4 && xmlHttp.status == 403) {
+                        var remaining = Math.round((parseInt(xmlHttp.getResponseHeader('X-RateLimit-Reset')) - (new Date).getTime() / 1000) / 60);
+                        var iconLabel = document.createElement('div');
+                        var iconText = document.createTextNode('You\'re refreshing this page too often, GitHub has blocked you out for ' + remaining + ' minutes.');
+                        iconLabel.appendChild(iconText);
+                        container.appendChild(iconLabel);
                     }
                 }
                 xmlHttp.open('GET', url, true);
@@ -145,6 +165,11 @@
             window.onload = function() {
                 getIcons('applications');
                 getIcons('mimetypes');
+                getIcons('devices');
+                getIcons('actions');
+                getIcons('emblems');
+                getIcons('places');
+                getIcons('status');
             };
         </script>
     </head>
@@ -167,6 +192,16 @@
                 <div class="icons-title">Applications</div>
             </div><div class="block" id="icons-mimetypes">
                 <div class="icons-title">Mimetypes</div>
+            </div><div class="block" id="icons-devices">
+                <div class="icons-title">Devices</div>
+            </div><div class="block" id="icons-actions">
+                <div class="icons-title">Actions</div>
+            </div><div class="block" id="icons-emblems">
+                <div class="icons-title">Emblems</div>
+            </div><div class="block" id="icons-places">
+                <div class="icons-title">Places</div>
+            </div><div class="block" id="icons-status">
+                <div class="icons-title">Status</div>
             </div>
         </div>
     </body>
