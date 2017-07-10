@@ -3,7 +3,7 @@
     <head>
         <title>Mato</title>
         <meta charset="UTF-8">
-        <meta name="theme-color" content="#009688">
+        <meta name="theme-color" content="#2196F3">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <link rel="icon" sizes="256x256" href="mato.png">
         <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Mono|Roboto+Slab" rel="stylesheet">
@@ -53,7 +53,7 @@
             .block {
                 margin: 48px auto 48px auto;
                 padding: 0 24px 0 24px;
-                max-width: 1000px;
+                max-width: 1024px;
                 text-align: center;
             }
             .block.small {
@@ -86,8 +86,8 @@
 
             .icon {
                 display: inline-block;
-                width: 120px;
-                margin: 8px;
+                width: 128px;
+                margin: 16px 8px 16px 8px;
             }
 
             .icon-img {
@@ -105,7 +105,47 @@
             }
         </style>
         <script>
-            // https://api.github.com/repos/flipflop97/Mato/contents/applications
+
+            function getIcons(group) {
+                var url = 'https://api.github.com/repos/flipflop97/Mato/contents/' + group;
+
+                var xmlHttp = new XMLHttpRequest();
+                xmlHttp.onreadystatechange = function() { 
+                    if (xmlHttp.readyState == 4 && xmlHttp.status == 200) {
+                        var contents = JSON.parse(xmlHttp.responseText);
+                        var container = document.getElementById('icons-' + group);
+
+                        contents.forEach(function(iconData, index) {
+                            var file = iconData['name']
+                            var src = group + '/' + file;
+                            var name = file.substring(0, file.length - 4);;
+
+                            var icon = document.createElement('div');
+                            icon.classList.add('icon');
+
+                            var iconImg = document.createElement('img');
+                            iconImg.classList.add('icon-img');
+                            iconImg.src = src;
+                            icon.appendChild(iconImg);
+
+                            var iconLabel = document.createElement('div', {text: 'libreoffice-impress'});
+                            iconLabel.classList.add('icon-label');
+                            var iconText = document.createTextNode(name);
+                            iconLabel.appendChild(iconText);
+                            icon.appendChild(iconLabel);
+
+                            container.appendChild(icon);
+                        });
+                    }
+                }
+                xmlHttp.open('GET', url, true);
+                xmlHttp.send(null);
+            }
+
+            window.onload = function() {
+                getIcons('applications');
+                getIcons('mimetypes');
+            };
         </script>
     </head>
     <body>
@@ -120,47 +160,13 @@
                     You can install Mato by executing the following command in your terminal.
                 </p><p>
                     <code><span color="indigo">sh</span> <span color="blue">-c</span> <span color="orange">'cd /tmp; rm -rf Mato/; git clone https://github.com/flipflop97/Mato.git; Mato/install.sh'</span></code>
+                </p><p>
+                    All currently available icons are shown below.
                 </p>
-            </div><div class="block">
-                <div class="icons">
-                    <div class="icons-title">Applications</div>
-                    <div class="icon">
-                        <img class="icon-img" src="applications/libreoffice-startcenter.svg">
-                        <div class="icon-label">Libreoffice</div>
-                    </div><div class="icon">
-                        <img class="icon-img" src="applications/libreoffice-writer.svg">
-                        <div class="icon-label">Libreoffice</div>
-                    </div><div class="icon">
-                        <img class="icon-img" src="applications/libreoffice-calc.svg">
-                        <div class="icon-label">Libreoffice Calc</div>
-                    </div><div class="icon">
-                        <img class="icon-img" src="applications/libreoffice-impress.svg">
-                        <div class="icon-label">Libreoffice Impress</div>
-                    </div><div class="icon">
-                        <img class="icon-img" src="applications/libreoffice-draw.svg">
-                        <div class="icon-label">Libreoffice Draw</div>
-                    </div><div class="icon">
-                        <img class="icon-img" src="applications/libreoffice-base.svg">
-                        <div class="icon-label">Libreoffice Base</div>
-                    </div><div class="icon">
-                        <img class="icon-img" src="applications/libreoffice-math.svg">
-                        <div class="icon-label">Libreoffice Math</div>
-                    </div>
-                </div>
-            </div><div class="block">
-                <div class="icons">
-                    <div class="icons-title">Mimetypes</div>
-                    <div class="icon">
-                        <img class="icon-img" src="mimetypes/text-x-tex.svg">
-                        <div class="icon-label">Latex</div>
-                    </div><div class="icon">
-                        <img class="icon-img" src="mimetypes/application-x-gamecube-rom.svg">
-                        <div class="icon-label">GameCube ROM</div>
-                    </div><div class="icon">
-                        <img class="icon-img" src="mimetypes/application-vnd.android.package-archive.svg">
-                        <div class="icon-label">Android Package</div>
-                    </div>
-                </div>
+            </div><div class="block" id="icons-applications">
+                <div class="icons-title">Applications</div>
+            </div><div class="block" id="icons-mimetypes">
+                <div class="icons-title">Mimetypes</div>
             </div>
         </div>
     </body>
