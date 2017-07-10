@@ -6,20 +6,31 @@
         <meta name="theme-color" content="#009688">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <link rel="icon" sizes="256x256" href="mato.png">
+        <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Mono|Roboto+Slab" rel="stylesheet">
         <style>
+            * {
+                transition: all 0.2s cubic-bezier(0.4, 0.0, 0.2, 1);
+            }
+
             body {
                 background-color: #FAFAFA;
                 margin: 0;
                 font-size: 16px;
+                font-family: 'Roboto Slab', serif;
                 color: rgba(0, 0, 0, 0.56);
+                overflow-x: hidden;
+                word-wrap: break-word;
             }
 
             code {
                 background-color: #EEEEEE;
                 display: inline-block;
                 text-align: left;
+                font-family: 'Roboto Mono', monospace;
                 padding: 8px;
                 border-radius: 4px;
+                width: 100%;
+                box-sizing: border-box;
             }
             code:before {
                 content: '$ ';
@@ -50,18 +61,47 @@
             }
 
             .mato-icon {
-                width: 192px;
-                height: 192px;
+                max-width: 192px;
+                width: 100%;
             }
 
             .mato-title {
                 font-size: 3em;
+                font-family: 'Roboto', sans-serif;
                 color: rgba(0, 0, 0, 0.87);
             }
 
+            .icons {
+                background-color: #EEEEEE;
+                border-radius: 4px;
+                padding: 8px;
+            }
+
+            .icons-title {
+                font-size: 2em;
+                font-family: 'Roboto', sans-serif;
+                color: rgba(0, 0, 0, 0.87);
+                margin: 8px;
+            }
+
             .icon {
+                display: inline-block;
+                width: 120px;
+                margin: 8px;
+            }
+
+            .icon-img {
+                display: block;
                 width: 96px;
                 height: 96px;
+                margin: auto;
+            }
+
+            .icon-label {
+                font-family: 'Roboto Condensed', sans-serif;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
             }
         </style>
         <script>
@@ -82,9 +122,44 @@
                     <code><span color="indigo">sh</span> <span color="blue">-c</span> <span color="orange">'cd /tmp; rm -rf Mato/; git clone https://github.com/flipflop97/Mato.git; Mato/install.sh'</span></code>
                 </p>
             </div><div class="block">
-                <div class="tabs">Applications | Mimetypes</div>
-                <div class="container">
-                    <img src="applications/libreoffice-draw.svg">
+                <div class="icons">
+                    <div class="icons-title">Applications</div>
+                    <div class="icon">
+                        <img class="icon-img" src="applications/libreoffice-startcenter.svg">
+                        <div class="icon-label">Libreoffice</div>
+                    </div><div class="icon">
+                        <img class="icon-img" src="applications/libreoffice-writer.svg">
+                        <div class="icon-label">Libreoffice</div>
+                    </div><div class="icon">
+                        <img class="icon-img" src="applications/libreoffice-calc.svg">
+                        <div class="icon-label">Libreoffice Calc</div>
+                    </div><div class="icon">
+                        <img class="icon-img" src="applications/libreoffice-impress.svg">
+                        <div class="icon-label">Libreoffice Impress</div>
+                    </div><div class="icon">
+                        <img class="icon-img" src="applications/libreoffice-draw.svg">
+                        <div class="icon-label">Libreoffice Draw</div>
+                    </div><div class="icon">
+                        <img class="icon-img" src="applications/libreoffice-base.svg">
+                        <div class="icon-label">Libreoffice Base</div>
+                    </div><div class="icon">
+                        <img class="icon-img" src="applications/libreoffice-math.svg">
+                        <div class="icon-label">Libreoffice Math</div>
+                    </div>
+                </div>
+            </div><div class="block">
+                <div class="icons">
+                    <div class="icons-title">Mimetypes</div>
+                    <div class="icon">
+                        <img class="icon-img" src="mimetypes/text-x-tex.svg">
+                        <div class="icon-label">Latex</div>
+                    </div><div class="icon">
+                        <img class="icon-img" src="mimetypes/application-x-gamecube-rom.svg">
+                        <div class="icon-label">GameCube ROM</div>
+                    </div><div class="icon">
+                        <img class="icon-img" src="mimetypes/application-vnd.android.package-archive.svg">
+                        <div class="icon-label">Android Package</div>
+                    </div>
                 </div>
             </div>
         </div>
