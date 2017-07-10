@@ -1,20 +1,5 @@
 # Mato
-![Screenshot](http://i.imgur.com/uykTYWO.png)
-
-*Screenshot: Mato icons on [GNOME](https://www.gnome.org/) desktop with [Flat-Plat](https://github.com/nana-4/Flat-Plat) theme*
-
-Mato is a Material Design inspired icon theme for Linux. It features simple and modern icons based on the official icons. Although this icon theme is based on the Material Design Guidelines, I don't follow them 100%.
-
-*Mato is currently in development, many icons are missing or will be changed.*
-
-## Install
-If you're using Arch Linux you can install Mato using the AUR package `mato-icons-git`.
-Otherwise, you can install and update Mato by executing the following command in your terminal.
-```bash
-sh -c 'cd /tmp; rm -rf Mato/; git clone https://github.com/flipflop97/Mato.git; Mato/install.sh'
-```
-
-*I'm working on getting packages ready for other distros, they will be available soon™.*
+For general information and previews, visit [flipflop97.github.io/Mato](https://flipflop97.github.io/Mato/).
 
 ## Request icons
 If you want to request an icon, create an issue for it. Please read [the guidelines](CONTRIBUTING.md) before doing so.
