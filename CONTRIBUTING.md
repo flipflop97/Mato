@@ -8,4 +8,4 @@ Please also add the filename of the icon.
   - For mimetypes, this is the mimetype itself in the properties of the file.
 
 ## Bug reports
-When you encounter a problem with Mato, or one that you think is caused by it, please submit a bug report. When doing this, make sure you describe your problem as cearly as possible. Try to include screenshots or steps to reproduce your problem.
+When you encounter a problem with Mato, or one that you think is caused by it, please submit a bug report. When doing this, make sure you describe your problem as clearly as possible. Try to include screenshots or steps to reproduce your problem.
