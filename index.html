@@ -9,7 +9,7 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Mono|Roboto+Slab" rel="stylesheet">
         <style>
             * {
-                transition: all 0.2s cubic-bezier(0.4, 0.0, 0.2, 1);
+                transition: all 0.3s cubic-bezier(0.4, 0.0, 0.2, 1), background-image 0s;
             }
 
             body {
@@ -41,22 +41,20 @@
 
             .big {
                 position: fixed;
-                left: 0;
-                right: 0;
-                top: 0;
-                bottom: 0;
+                left: -96px;
+                right: -96px;
+                top: -96px;
+                bottom: -96px;
+                padding: 96px;
                 background-color: rgba(250, 250, 250, 0.9);
                 background-size: contain;
                 background-position: center;
                 background-repeat: no-repeat;
+                background-origin: content-box;
                 opacity: 1;
                 color: inherit;
                 text-decoration: inherit;
                 z-index: 10;
-            }
-            .big.hidden {
-                pointer-events: none;
-                opacity: 0;
             }
 
             .fab {
@@ -144,6 +142,12 @@
                 overflow: hidden;
             }
 
+            .hidden {
+                pointer-events: none;
+                opacity: 0;
+                transform: translateY(96px);
+            }
+
             /* Dark theme */
             .dark {
                 background-color: #212121;
@@ -171,42 +175,45 @@
                 var container = document.getElementById('icons-' + group);
 
                 var xmlHttp = new XMLHttpRequest();
-                xmlHttp.onreadystatechange = function() { 
-                    if (xmlHttp.readyState == 4 && xmlHttp.status == 200) {
-                        var contents = JSON.parse(xmlHttp.responseText);
+                xmlHttp.onreadystatechange = function() {
+                    if (xmlHttp.readyState == 4) {
+                        if (xmlHttp.status == 200) {
+                            var contents = JSON.parse(xmlHttp.responseText);
 
-                        contents.forEach(function(iconData, index) {
-                            var file = iconData['name'];
-                            var src = group + '/' + file;
-                            var name = file.substring(0, file.length - 4);
-                            var symbolic = name.endsWith('-symbolic') || name.endsWith('-symbolic-rtl');
+                            contents.forEach(function(iconData, index) {
+                                var file = iconData['name'];
+                                var src = group + '/' + file;
+                                var name = file.substring(0, file.length - 4);
+                                var symbolic = name.endsWith('-symbolic') || name.endsWith('-symbolic-rtl');
 
-                            var icon = document.createElement('a');
-                            icon.classList.add('icon');
-                            if (!symbolic) {icon.href = '#' + group + '/' + name};
+                                var icon = document.createElement('a');
+                                icon.classList.add('icon');
+                                if (!symbolic) {icon.href = '#' + group + '/' + name};
 
-                            var iconImg = document.createElement('img');
-                            iconImg.classList.add('icon-img');
-                            if (symbolic) {iconImg.classList.add('symbolic')};
-                            iconImg.src = src;
-                            iconImg.alt = name;
-                            icon.appendChild(iconImg);
+                                var iconImg = document.createElement('img');
+                                iconImg.classList.add('icon-img');
+                                if (symbolic) {iconImg.classList.add('symbolic')};
+                                iconImg.src = src;
+                                iconImg.alt = name;
+                                icon.appendChild(iconImg);
 
+                                var iconLabel = document.createElement('div');
+                                iconLabel.classList.add('icon-label');
+                                var iconText = document.createTextNode(name);
+                                iconLabel.appendChild(iconText);
+                                icon.appendChild(iconLabel);
+
+                                container.appendChild(icon);
+                            });
+                        }
+                        else if (xmlHttp.status == 403) {
+                            var remaining = Math.round((parseInt(xmlHttp.getResponseHeader('X-RateLimit-Reset')) - (new Date).getTime() / 1000) / 60);
                             var iconLabel = document.createElement('div');
-                            iconLabel.classList.add('icon-label');
-                            var iconText = document.createTextNode(name);
+                            var iconText = document.createTextNode('You\'re refreshing this page too often, GitHub has blocked you out for ' + remaining + ' minutes.');
                             iconLabel.appendChild(iconText);
-                            icon.appendChild(iconLabel);
-
-                            container.appendChild(icon);
-                        });
-                    }
-                    else if (xmlHttp.readyState == 4 && xmlHttp.status == 403) {
-                        var remaining = Math.round((parseInt(xmlHttp.getResponseHeader('X-RateLimit-Reset')) - (new Date).getTime() / 1000) / 60);
-                        var iconLabel = document.createElement('div');
-                        var iconText = document.createTextNode('You\'re refreshing this page too often, GitHub has blocked you out for ' + remaining + ' minutes.');
-                        iconLabel.appendChild(iconText);
-                        container.appendChild(iconLabel);
+                            container.appendChild(iconLabel);
+                        }
+                        container.classList.remove('hidden');
                     }
                 }
                 xmlHttp.open('GET', url, true);
@@ -257,19 +264,19 @@
                 </p><p>
                     All currently available icons are displayed below. If you'd like to submit icon requests or bug reports, head over to the <a href="https://github.com/flipflop97/Mato/issues">GitHub issue tracker</a>.
                 </p>
-            </div><div class="block" id="icons-applications">
+            </div><div class="block hidden" id="icons-applications">
                 <div class="icons-title">Applications</div>
-            </div><div class="block" id="icons-mimetypes">
+            </div><div class="block hidden" id="icons-mimetypes">
                 <div class="icons-title">Mimetypes</div>
-            </div><div class="block" id="icons-devices">
+            </div><div class="block hidden" id="icons-devices">
                 <div class="icons-title">Devices</div>
-            </div><div class="block" id="icons-places">
+            </div><div class="block hidden" id="icons-places">
                 <div class="icons-title">Places</div>
-            </div><div class="block" id="icons-actions">
+            </div><div class="block hidden" id="icons-actions">
                 <div class="icons-title">Actions</div>
-            </div><div class="block" id="icons-status">
+            </div><div class="block hidden" id="icons-status">
                 <div class="icons-title">Status</div>
-            </div><div class="block" id="icons-emblems">
+            </div><div class="block hidden" id="icons-emblems">
                 <div class="icons-title">Emblems</div>
             </div>
         </div>
