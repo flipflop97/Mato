@@ -190,6 +190,7 @@
                             iconImg.classList.add('icon-img');
                             if (symbolic) {iconImg.classList.add('symbolic')};
                             iconImg.src = src;
+                            iconImg.alt = name;
                             icon.appendChild(iconImg);
 
                             var iconLabel = document.createElement('div');
@@ -241,13 +242,11 @@
         </script>
     </head>
     <body>
-        <div class="fab" onclick="document.body.classList.toggle('dark');"><img src="status/display-brightness-symbolic.svg"></img></div>
-        <a class="big hidden" id="big" href="#main">
-            <div class=""></div>
-        </a>
+        <div class="fab" onclick="document.body.classList.toggle('dark');"><img src="status/display-brightness-symbolic.svg" alt="Toggle between light and dark theme"></div>
+        <a class="big hidden" id="big" href="#main"></a>
         <div class="content">
             <div class="block">
-                <img class="mato-icon" src="mato.svg"></img>
+                <img class="mato-icon" src="mato.svg">
                 <div class="mato-title">Mato</div>
             </div><div class="small block">
                 <p>
