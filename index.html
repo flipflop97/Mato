@@ -125,15 +125,6 @@
                 margin: auto;
                 box-sizing: border-box;
             }
-            .icon-img.symbolic {
-                filter: invert(46%);
-                width: 88px;
-                height: 88px;
-                padding: 28px;
-                margin-top: 4px;
-                margin-bottom: 4px;
-                border-radius: 4px;
-            }
 
             .icon-label {
                 font-family: 'Roboto Condensed', sans-serif;
@@ -165,9 +156,6 @@
             .dark .icons-title {
                 color: rgba(255, 255, 255, 0.87);
             }
-            .dark .icon-img.symbolic {
-                filter: invert(54%);
-            }
         </style>
         <script>
             function getIcons(group) {
@@ -186,24 +174,26 @@
                                 var name = file.substring(0, file.length - 4);
                                 var symbolic = name.endsWith('-symbolic') || name.endsWith('-symbolic-rtl');
 
-                                var icon = document.createElement('a');
-                                icon.classList.add('icon');
-                                if (!symbolic) {icon.href = '#' + group + '/' + name};
+                                if (!symbolic) {
+                                    var icon = document.createElement('a');
+                                    icon.classList.add('icon');
+                                    icon.href = '#' + group + '/' + name;
 
-                                var iconImg = document.createElement('img');
-                                iconImg.classList.add('icon-img');
-                                if (symbolic) {iconImg.classList.add('symbolic')};
-                                iconImg.src = src;
-                                iconImg.alt = name;
-                                icon.appendChild(iconImg);
+                                    var iconImg = document.createElement('img');
+                                    iconImg.classList.add('icon-img');
+                                    iconImg.classList.add('symbolic');
+                                    iconImg.src = src;
+                                    iconImg.alt = name;
+                                    icon.appendChild(iconImg);
 
-                                var iconLabel = document.createElement('div');
-                                iconLabel.classList.add('icon-label');
-                                var iconText = document.createTextNode(name);
-                                iconLabel.appendChild(iconText);
-                                icon.appendChild(iconLabel);
+                                    var iconLabel = document.createElement('div');
+                                    iconLabel.classList.add('icon-label');
+                                    var iconText = document.createTextNode(name);
+                                    iconLabel.appendChild(iconText);
+                                    icon.appendChild(iconLabel);
 
-                                container.appendChild(icon);
+                                    container.appendChild(icon);
+                                }
                             });
                         }
                         else if (xmlHttp.status == 403) {
