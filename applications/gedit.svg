@@ -13,7 +13,7 @@
    height="48"
    id="svg4152"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
    viewBox="0 0 48 48"
    sodipodi:docname="gedit.svg">
   <defs
@@ -152,19 +152,19 @@
      borderopacity="0.49803922"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.924054"
-     inkscape:cx="-42.956328"
-     inkscape:cy="44.781545"
+     inkscape:zoom="15.696216"
+     inkscape:cx="7.3780823"
+     inkscape:cy="32.743599"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
      inkscape:showpageshadow="false"
      borderlayer="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1012"
+     inkscape:window-width="3840"
+     inkscape:window-height="2024"
      inkscape:window-x="0"
-     inkscape:window-y="32"
+     inkscape:window-y="64"
      inkscape:window-maximized="1">
     <inkscape:grid
        type="xygrid"
@@ -217,7 +217,7 @@
        sodipodi:nodetypes="cccccccc"
        clip-path="url(#clipPath4278)" />
     <path
-       style="fill:#90a4ae;fill-opacity:1;fill-rule:evenodd;stroke:#90a4ae;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4262)"
+       style="fill:#b0bec5;fill-opacity:1;fill-rule:evenodd;stroke:#b0bec5;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4262)"
        d="M 22 23 L 16 36 L 20 46 L 28 46 L 32 36 L 26 23 L 26 34.541016 A 4 4 0 0 1 28 38 A 4 4 0 0 1 24 42 A 4 4 0 0 1 20 38 A 4 4 0 0 1 22 34.541016 L 22 23 z "
        transform="translate(0,-32)"
        id="path4140"
