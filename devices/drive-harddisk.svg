@@ -1,18 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
     <defs>
-        <filter id="a" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity=".298" result="flood"/>
-            <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
-            <feGaussianBlur in="composite1" result="blur" stdDeviation=".8"/>
-            <feOffset dy=".4" result="offset"/>
-            <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
-        </filter>
-        <filter id="c" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity=".298" result="flood"/>
-            <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
-            <feGaussianBlur in="composite1" result="blur" stdDeviation=".8"/>
-            <feOffset dy=".4" result="offset"/>
-            <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+        <filter id="a">
+            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
+            <feOffset dy=".4"/>
+            <feComponentTransfer>
+                <feFuncA slope=".3" type="linear"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
         </filter>
         <clipPath id="b">
             <rect fill="#ffc107" fill-rule="evenodd" width="44" height="32" x="2" y="-24" rx="2" ry="2"/>
@@ -21,7 +18,7 @@
     <g fill-rule="evenodd" transform="translate(0 32)">
         <rect fill="#ffc107" width="44" height="32" x="2" y="-24" filter="url(#a)" rx="2" ry="2"/>
         <rect opacity=".1" width="6" height="24" x="40" y="-20" rx="0" ry="0"/>
-        <path fill="#212121" d="M4-24c-1.108 0-2 .892-2 2V6c0 1.108.892 2 2 2h40c1.108 0 2-.892 2-2V2h-4v-6h4v-2h-4v-12h4v-4c0-1.108-.892-2-2-2H4z" clip-path="url(#b)" filter="url(#c)"/>
+        <path fill="#212121" d="M4-24c-1.108 0-2 .892-2 2V6c0 1.108.892 2 2 2h40c1.108 0 2-.892 2-2V2h-4v-6h4v-2h-4v-12h4v-4c0-1.108-.892-2-2-2H4z" clip-path="url(#b)" filter="url(#a)"/>
         <circle fill="#616161" cx="5" cy="-21" r="1"/>
         <circle fill="#616161" cx="5" cy="5" r="1"/>
         <circle fill="#616161" cx="43" cy="5" r="1"/>

@@ -1,18 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
     <defs>
-        <filter id="a" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity=".298" result="flood"/>
-            <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
-            <feGaussianBlur in="composite1" result="blur" stdDeviation=".8"/>
-            <feOffset dy=".4" result="offset"/>
-            <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
-        </filter>
-        <filter id="c" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity=".298" result="flood"/>
-            <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
-            <feGaussianBlur in="composite1" result="blur" stdDeviation=".8"/>
-            <feOffset dy=".4" result="offset"/>
-            <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+        <filter id="a">
+            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
+            <feOffset dy=".4"/>
+            <feComponentTransfer>
+                <feFuncA slope=".3" type="linear"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
         </filter>
         <clipPath id="b">
             <rect fill="#e0e0e0" fill-rule="evenodd" width="44" height="26" x="2" y="-21" rx="2" ry="2"/>
@@ -21,7 +18,7 @@
     <g transform="translate(0 32)">
         <rect fill="#e0e0e0" fill-rule="evenodd" width="44" height="26" x="2" y="-21" filter="url(#a)" rx="2" ry="2"/>
         <path fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" opacity=".1" d="M6 1v-2h6L6-7v-2h6l-6-6v-2h2l6 6v-6h2l6 6v-6h2l6 6v-6h2l6 6v-6h4l6 6V7H12z" clip-path="url(#b)"/>
-        <g fill="#212121" filter="url(#c)">
+        <g fill="#212121" filter="url(#a)">
             <rect width="6" height="6" x="4" y="-19" rx="2" ry="2"/>
             <rect width="8" height="6" x="4" y="-11" rx="2" ry="2"/>
             <rect width="6" height="6" x="12" y="-19" rx="2" ry="2"/>

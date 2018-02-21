@@ -1,18 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
     <defs>
-        <filter id="a" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity=".298" result="flood"/>
-            <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
-            <feGaussianBlur in="composite1" result="blur" stdDeviation=".8"/>
-            <feOffset dy=".4" result="offset"/>
-            <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
-        </filter>
-        <filter id="d" width="1.8" height="1.8" x="-.4" y="-.4" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity=".298" result="flood"/>
-            <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
-            <feGaussianBlur in="composite1" result="blur" stdDeviation=".8"/>
-            <feOffset dy=".4" result="offset"/>
-            <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+        <filter id="a">
+            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
+            <feOffset dy=".4"/>
+            <feComponentTransfer>
+                <feFuncA slope=".3" type="linear"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
         </filter>
         <clipPath id="c">
             <rect fill="#212121" fill-rule="evenodd" width="32" height="44" x="8" y="-30" rx="16" ry="16"/>
@@ -25,6 +22,6 @@
         <rect fill="#cfd8dc" fill-rule="evenodd" width="32" height="44" x="8" y="-30" filter="url(#a)" rx="16" ry="16"/>
         <path fill="none" stroke="#90a4ae" stroke-linecap="round" stroke-width="2" d="M24-31v24" clip-path="url(#b)"/>
         <path fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" opacity=".1" d="M24-16v-6L42-4v6z" clip-path="url(#c)"/>
-        <rect fill="#37474f" width="4" height="10" x="22" y="-24" filter="url(#d)" rx="2" ry="2"/>
+        <rect fill="#37474f" width="4" height="10" x="22" y="-24" filter="url(#a)" rx="2" ry="2"/>
     </g>
 </svg>

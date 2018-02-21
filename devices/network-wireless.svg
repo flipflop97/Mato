@@ -1,11 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
     <defs>
-        <filter id="a" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity=".298" result="flood"/>
-            <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
-            <feGaussianBlur in="composite1" result="blur" stdDeviation=".8"/>
-            <feOffset dy=".4" result="offset"/>
-            <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+        <filter id="a">
+            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
+            <feOffset dy=".4"/>
+            <feComponentTransfer>
+                <feFuncA slope=".3" type="linear"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
         </filter>
     </defs>
     <path fill="#03a9f4" d="M24-24a30.002 30.002 0 0 0-21.213 8.787 2 2 0 0 0 0 2.828l19.799 19.8a2 2 0 0 0 2.828 0l19.799-19.8a2 2 0 0 0 0-2.828A30.002 30.002 0 0 0 24-24z" filter="url(#a)" transform="translate(0 32)"/>

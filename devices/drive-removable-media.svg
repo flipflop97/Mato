@@ -1,18 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
     <defs>
-        <filter id="a" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity=".298" result="flood"/>
-            <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
-            <feGaussianBlur in="composite1" result="blur" stdDeviation=".8"/>
-            <feOffset dy=".4" result="offset"/>
-            <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
-        </filter>
-        <filter id="c" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity=".298" result="flood"/>
-            <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
-            <feGaussianBlur in="composite1" result="blur" stdDeviation=".8"/>
-            <feOffset dy=".4" result="offset"/>
-            <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+        <filter id="a">
+            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
+            <feOffset dy=".4"/>
+            <feComponentTransfer>
+                <feFuncA slope=".3" type="linear"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
         </filter>
         <clipPath id="b">
             <rect fill="#cfd8dc" fill-rule="evenodd" width="12" height="10" x="50" y="-30" rx="0" ry="0"/>
@@ -23,6 +20,6 @@
             <rect fill="#cfd8dc" width="12" height="10" x="18" y="-30" rx="0" ry="0"/>
             <rect fill="#212121" width="24" height="34" x="12" y="-20" rx="2" ry="2"/>
         </g>
-        <rect fill="#212121" width="24" height="34" x="44" y="-20" clip-path="url(#b)" filter="url(#c)" rx="2" ry="2" transform="translate(-32)"/>
+        <rect fill="#212121" width="24" height="34" x="44" y="-20" clip-path="url(#b)" filter="url(#a)" rx="2" ry="2" transform="translate(-32)"/>
     </g>
 </svg>
