@@ -26,4 +26,5 @@
     </g>
     <path fill="none" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 6h4v4h-4 4v4h-4m12-8v8m4-8v4h4V6v8"/>
     <path fill="none" stroke="#eceff1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M35 41h-6m6-4h-6m6-15l-6 6m6 0l-6-6m-10 3h-6m3 11v6m3-3h-6"/>
+    <circle cx="24" cy="14" r="1" fill="#263238"/>
 </svg>
