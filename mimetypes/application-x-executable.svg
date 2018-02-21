@@ -1,21 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
     <defs>
-        <filter id="a" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity=".298" result="flood"/>
-            <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
-            <feGaussianBlur in="composite1" result="blur" stdDeviation=".8"/>
-            <feOffset dy=".4" result="offset"/>
-            <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+        <filter id="a">
+            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
+            <feOffset dy=".4"/>
+            <feComponentTransfer>
+                <feFuncA slope=".3" type="linear"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
         </filter>
     </defs>
     <g transform="translate(0 32)">
-        <rect width="38" height="38" x="5" y="-27" rx="2" ry="2" fill="#607d8b" fill-rule="evenodd" filter="url(#a)"/>
-        <rect width="8" height="6" x="20" y="-22" rx="2" ry="2" fill="#cfd8dc" fill-rule="evenodd"/>
-        <circle cx="24" cy="-8" r="8" fill="none" stroke="#cfd8dc" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-        <rect width="8" height="6" x="20" rx="2" ry="2" fill="#cfd8dc" fill-rule="evenodd"/>
-        <rect width="8" height="6" x="1.07" y="-38.78" rx="2" ry="2" transform="rotate(60)" fill="#cfd8dc" fill-rule="evenodd"/>
-        <rect width="8" height="6" x="1.07" y="-16.79" rx="2" ry="2" transform="rotate(60)" fill="#cfd8dc" fill-rule="evenodd"/>
-        <rect width="8" height="6" x="14.93" y="2.79" rx="2" ry="2" transform="rotate(-60)" fill="#cfd8dc" fill-rule="evenodd"/>
-        <rect width="8" height="6" x="14.93" y="24.79" rx="2" ry="2" transform="rotate(-60)" fill="#cfd8dc" fill-rule="evenodd"/>
+        <rect fill="#607d8b" fill-rule="evenodd" width="38" height="38" x="5" y="-27" filter="url(#a)" rx="2" ry="2"/>
+        <rect fill="#cfd8dc" fill-rule="evenodd" width="8" height="6" x="20" y="-22" rx="2" ry="2"/>
+        <circle fill="none" stroke="#cfd8dc" stroke-linecap="round" stroke-linejoin="round" stroke-width="6" cx="24" cy="-8" r="8"/>
+        <rect fill="#cfd8dc" fill-rule="evenodd" width="8" height="6" x="20" rx="2" ry="2"/>
+        <rect fill="#cfd8dc" fill-rule="evenodd" width="8" height="6" x="1.07" y="-38.78" rx="2" ry="2" transform="rotate(60)"/>
+        <rect fill="#cfd8dc" fill-rule="evenodd" width="8" height="6" x="1.07" y="-16.79" rx="2" ry="2" transform="rotate(60)"/>
+        <rect fill="#cfd8dc" fill-rule="evenodd" width="8" height="6" x="14.93" y="2.79" rx="2" ry="2" transform="rotate(-60)"/>
+        <rect fill="#cfd8dc" fill-rule="evenodd" width="8" height="6" x="14.93" y="24.79" rx="2" ry="2" transform="rotate(-60)"/>
     </g>
 </svg>

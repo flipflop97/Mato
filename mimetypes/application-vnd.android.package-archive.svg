@@ -1,19 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
     <defs>
-        <filter id="a" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity=".298" result="flood"/>
-            <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
-            <feGaussianBlur in="composite1" result="blur" stdDeviation=".8"/>
-            <feOffset dy=".4" result="offset"/>
-            <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+        <filter id="a">
+            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
+            <feOffset dy=".4"/>
+            <feComponentTransfer>
+                <feFuncA slope=".3" type="linear"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
         </filter>
     </defs>
     <g transform="translate(0 32)">
-        <rect width="38" height="38" x="5" y="-27" rx="2" ry="2" fill="#8bc34a" fill-rule="evenodd" filter="url(#a)"/>
-        <path d="M12-2a12 12 0 0 1 12-12A12 12 0 0 1 36-2H24z" fill="#f1f8e9" fill-rule="evenodd" stroke="#f1f8e9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M17-11l-3-5" fill="none" stroke="#f1f8e9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        <circle cx="18" cy="-7" r="2" fill="#8bc34a" fill-rule="evenodd"/>
-        <path d="M31-11l3-5" fill="none" stroke="#f1f8e9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        <circle cx="30" cy="-7" r="2" fill="#8bc34a" fill-rule="evenodd"/>
+        <rect fill="#8bc34a" fill-rule="evenodd" width="38" height="38" x="5" y="-27" filter="url(#a)" rx="2" ry="2"/>
+        <path fill="#f1f8e9" fill-rule="evenodd" stroke="#f1f8e9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12-2a12 12 0 0 1 12-12A12 12 0 0 1 36-2H24z"/>
+        <path fill="none" stroke="#f1f8e9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17-11l-3-5"/>
+        <circle fill="#8bc34a" fill-rule="evenodd" cx="18" cy="-7" r="2"/>
+        <path fill="none" stroke="#f1f8e9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M31-11l3-5"/>
+        <circle fill="#8bc34a" fill-rule="evenodd" cx="30" cy="-7" r="2"/>
     </g>
 </svg>

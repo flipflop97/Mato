@@ -9,7 +9,7 @@
         </filter>
     </defs>
     <g transform="translate(0 32)">
-        <rect width="32" height="44" x="8" y="-30" rx="16" ry="16" fill="#3f51b5" fill-rule="evenodd" filter="url(#a)"/>
-        <path d="M17-1l14-14-7-7V6l7-7-14-14" fill="none" stroke="#e8eaf6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        <rect fill="#3f51b5" fill-rule="evenodd" width="32" height="44" x="8" y="-30" filter="url(#a)" rx="16" ry="16"/>
+        <path fill="none" stroke="#e8eaf6" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M17-1l14-14-7-7V6l7-7-14-14"/>
     </g>
 </svg>

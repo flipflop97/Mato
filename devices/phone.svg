@@ -9,17 +9,17 @@
         </filter>
     </defs>
     <g transform="translate(0 32)">
-        <rect width="24" height="44" x="12" y="-30" rx="2" ry="2" fill="#212121" fill-rule="evenodd" filter="url(#a)"/>
-        <rect width="20" height="32" x="14" y="-24" rx="0" ry="0" fill="#009688" fill-rule="evenodd"/>
-        <path d="M20-27h8" fill="none" stroke="#616161" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        <circle cx="16" cy="-27" r="1" fill="#616161" fill-rule="evenodd"/>
-        <circle cx="24" cy="-16" r="5" fill="none" stroke="#e0f2f1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M24-18v2M25-15l-1-1" fill="none" stroke="#e0f2f1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        <circle cx="18" cy="4" r="2" fill="#e0f2f1" fill-rule="evenodd"/>
-        <circle cx="24" cy="4" r="2" fill="#e0f2f1" fill-rule="evenodd"/>
-        <circle cx="30" cy="4" r="2" fill="#e0f2f1" fill-rule="evenodd"/>
-        <circle cx="24" cy="11" r="1" fill="#616161" fill-rule="evenodd"/>
-        <circle cx="19" cy="11" r="1" fill="#616161" fill-rule="evenodd"/>
-        <circle cx="29" cy="11" r="1" fill="#616161" fill-rule="evenodd"/>
+        <rect fill="#212121" fill-rule="evenodd" width="24" height="44" x="12" y="-30" filter="url(#a)" rx="2" ry="2"/>
+        <rect fill="#009688" fill-rule="evenodd" width="20" height="32" x="14" y="-24" rx="0" ry="0"/>
+        <path fill="none" stroke="#616161" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20-27h8"/>
+        <circle fill="#616161" fill-rule="evenodd" cx="16" cy="-27" r="1"/>
+        <circle fill="none" stroke="#e0f2f1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" cx="24" cy="-16" r="5"/>
+        <path fill="none" stroke="#e0f2f1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M24-18v2m1 1l-1-1"/>
+        <circle fill="#e0f2f1" fill-rule="evenodd" cx="18" cy="4" r="2"/>
+        <circle fill="#e0f2f1" fill-rule="evenodd" cx="24" cy="4" r="2"/>
+        <circle fill="#e0f2f1" fill-rule="evenodd" cx="30" cy="4" r="2"/>
+        <circle fill="#616161" fill-rule="evenodd" cx="24" cy="11" r="1"/>
+        <circle fill="#616161" fill-rule="evenodd" cx="19" cy="11" r="1"/>
+        <circle fill="#616161" fill-rule="evenodd" cx="29" cy="11" r="1"/>
     </g>
 </svg>

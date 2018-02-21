@@ -15,16 +15,16 @@
             <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
         </filter>
         <clipPath id="c">
-            <rect width="32" height="44" x="8" y="-30" rx="16" ry="16" fill="#212121" fill-rule="evenodd"/>
+            <rect fill="#212121" fill-rule="evenodd" width="32" height="44" x="8" y="-30" rx="16" ry="16"/>
         </clipPath>
         <clipPath id="b">
-            <rect width="32" height="44" x="8" y="-30" rx="16" ry="16" fill="#cfd8dc" fill-rule="evenodd"/>
+            <rect fill="#cfd8dc" fill-rule="evenodd" width="32" height="44" x="8" y="-30" rx="16" ry="16"/>
         </clipPath>
     </defs>
     <g transform="translate(0 32)">
-        <rect width="32" height="44" x="8" y="-30" rx="16" ry="16" fill="#cfd8dc" fill-rule="evenodd" filter="url(#a)"/>
-        <path d="M24-31v24" clip-path="url(#b)" fill="none" stroke="#90a4ae" stroke-width="2" stroke-linecap="round"/>
-        <path d="M24-16v-6L42-4v6z" clip-path="url(#c)" opacity=".1" fill-rule="evenodd" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-        <rect width="4" height="10" x="22" y="-24" rx="2" ry="2" fill="#37474f" filter="url(#d)"/>
+        <rect fill="#cfd8dc" fill-rule="evenodd" width="32" height="44" x="8" y="-30" filter="url(#a)" rx="16" ry="16"/>
+        <path fill="none" stroke="#90a4ae" stroke-linecap="round" stroke-width="2" d="M24-31v24" clip-path="url(#b)"/>
+        <path fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" opacity=".1" d="M24-16v-6L42-4v6z" clip-path="url(#c)"/>
+        <rect fill="#37474f" width="4" height="10" x="22" y="-24" filter="url(#d)" rx="2" ry="2"/>
     </g>
 </svg>

@@ -9,8 +9,8 @@
         </filter>
     </defs>
     <g transform="translate(0 32)">
-        <rect width="38" height="38" x="5" y="-27" rx="2" ry="2" fill="#2196f3" fill-rule="evenodd" filter="url(#a)"/>
-        <path d="M21-19a1 1 0 0 0-1 1v1h-2a1 1 0 0 0-1 1v1h-5a1 1 0 0 0-1 1V1a1 1 0 0 0 1 1h24a1 1 0 0 0 1-1v-15a1 1 0 0 0-1-1h-5v-1a1 1 0 0 0-1-1h-2v-1a1 1 0 0 0-1-1z" fill="#e3f2fd" fill-rule="evenodd"/>
-        <path d="M18 2v-4M22 2v-4M26 2v-4M30 2v-4" fill="none" stroke="#2196f3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <rect fill="#2196f3" fill-rule="evenodd" width="38" height="38" x="5" y="-27" filter="url(#a)" rx="2" ry="2"/>
+        <path fill="#e3f2fd" fill-rule="evenodd" d="M21-19a1 1 0 0 0-1 1v1h-2a1 1 0 0 0-1 1v1h-5a1 1 0 0 0-1 1V1a1 1 0 0 0 1 1h24a1 1 0 0 0 1-1v-15a1 1 0 0 0-1-1h-5v-1a1 1 0 0 0-1-1h-2v-1a1 1 0 0 0-1-1z"/>
+        <path fill="none" stroke="#2196f3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 2v-4m4 4v-4m4 4v-4m4 4v-4"/>
     </g>
 </svg>

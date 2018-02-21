@@ -1,17 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
     <defs>
-        <filter id="a" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity=".298" result="flood"/>
-            <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
-            <feGaussianBlur in="composite1" result="blur" stdDeviation=".8"/>
-            <feOffset dy=".4" result="offset"/>
-            <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+        <filter id="a">
+            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
+            <feOffset dy=".4"/>
+            <feComponentTransfer>
+                <feFuncA slope=".3" type="linear"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
         </filter>
     </defs>
     <g transform="translate(0 32)">
-        <rect width="38" height="38" x="5" y="-27" rx="2" ry="2" fill="#607d8b" fill-rule="evenodd" filter="url(#a)"/>
-        <path d="M15-8a10 10 0 0 1 7.412-9.66A10 10 0 0 1 33.66-13 10 10 0 0 1 32.071-.929 10 10 0 0 1 20 .661" fill="none" stroke="#cfd8dc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M19-8l-4 4-4-4M25-14v6l3 3" fill="none" stroke="#cfd8dc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M15-8v4" fill="none" stroke="#cfd8dc" stroke-width="2" stroke-linejoin="round"/>
+        <rect fill="#607d8b" fill-rule="evenodd" width="38" height="38" x="5" y="-27" filter="url(#a)" rx="2" ry="2"/>
+        <path fill="none" stroke="#cfd8dc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15-8a10 10 0 0 1 7.412-9.66A10 10 0 0 1 33.66-13 10 10 0 0 1 32.071-.929 10 10 0 0 1 20 .661"/>
+        <path fill="none" stroke="#cfd8dc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19-8l-4 4-4-4m14-6v6l3 3"/>
+        <path fill="none" stroke="#cfd8dc" stroke-linejoin="round" stroke-width="2" d="M15-8v4"/>
     </g>
 </svg>

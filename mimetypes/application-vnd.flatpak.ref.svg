@@ -1,16 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
     <defs>
-        <filter id="a" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity=".298" result="flood"/>
-            <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
-            <feGaussianBlur in="composite1" result="blur" stdDeviation=".8"/>
-            <feOffset dy=".4" result="offset"/>
-            <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+        <filter id="a">
+            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
+            <feOffset dy=".4"/>
+            <feComponentTransfer>
+                <feFuncA slope=".3" type="linear"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
         </filter>
     </defs>
-    <g transform="translate(0 32)" fill-rule="evenodd">
-        <rect width="38" height="38" x="5" y="-27" rx="2" ry="2" fill="#2196f3" filter="url(#a)"/>
-        <path d="M34-13v10l-10-8-10 8v-10l10-7z" fill="#e3f2fd" stroke="#e3f2fd" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M34-13v10L24 4 14-3v-10l10 8z" fill="#fff" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill-rule="evenodd" transform="translate(0 32)">
+        <rect fill="#2196f3" width="38" height="38" x="5" y="-27" filter="url(#a)" rx="2" ry="2"/>
+        <path fill="#e3f2fd" stroke="#e3f2fd" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M34-13v10l-10-8-10 8v-10l10-7z"/>
+        <path fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M34-13v10L24 4 14-3v-10l10 8z"/>
     </g>
 </svg>

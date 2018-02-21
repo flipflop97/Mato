@@ -15,13 +15,13 @@
             <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
         </filter>
         <clipPath id="b">
-            <rect width="44" height="26" x="2" y="-21" rx="2" ry="2" fill="#e0e0e0" fill-rule="evenodd"/>
+            <rect fill="#e0e0e0" fill-rule="evenodd" width="44" height="26" x="2" y="-21" rx="2" ry="2"/>
         </clipPath>
     </defs>
     <g transform="translate(0 32)">
-        <rect width="44" height="26" x="2" y="-21" rx="2" ry="2" fill="#e0e0e0" fill-rule="evenodd" filter="url(#a)"/>
-        <path d="M6 1v-2h6L6-7v-2h6l-6-6v-2h2l6 6v-6h2l6 6v-6h2l6 6v-6h2l6 6v-6h4l6 6V7H12z" clip-path="url(#b)" opacity=".1" fill-rule="evenodd" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-        <g filter="url(#c)" fill="#212121">
+        <rect fill="#e0e0e0" fill-rule="evenodd" width="44" height="26" x="2" y="-21" filter="url(#a)" rx="2" ry="2"/>
+        <path fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" opacity=".1" d="M6 1v-2h6L6-7v-2h6l-6-6v-2h2l6 6v-6h2l6 6v-6h2l6 6v-6h2l6 6v-6h4l6 6V7H12z" clip-path="url(#b)"/>
+        <g fill="#212121" filter="url(#c)">
             <rect width="6" height="6" x="4" y="-19" rx="2" ry="2"/>
             <rect width="8" height="6" x="4" y="-11" rx="2" ry="2"/>
             <rect width="6" height="6" x="12" y="-19" rx="2" ry="2"/>

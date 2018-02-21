@@ -15,16 +15,16 @@
             <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
         </filter>
         <clipPath id="b">
-            <rect width="44" height="32" x="2" y="-24" rx="2" ry="2" fill="#ffc107" fill-rule="evenodd"/>
+            <rect fill="#ffc107" fill-rule="evenodd" width="44" height="32" x="2" y="-24" rx="2" ry="2"/>
         </clipPath>
     </defs>
-    <g transform="translate(0 32)" fill-rule="evenodd">
-        <rect width="44" height="32" x="2" y="-24" rx="2" ry="2" fill="#ffc107" filter="url(#a)"/>
-        <rect width="6" height="24" x="40" y="-20" rx="0" ry="0" opacity=".1"/>
-        <path d="M4-24c-1.108 0-2 .892-2 2V6c0 1.108.892 2 2 2h40c1.108 0 2-.892 2-2V2h-4v-6h4v-2h-4v-12h4v-4c0-1.108-.892-2-2-2H4z" clip-path="url(#b)" fill="#212121" filter="url(#c)"/>
-        <circle cx="5" cy="-21" r="1" fill="#616161"/>
-        <circle cx="5" cy="5" r="1" fill="#616161"/>
-        <circle cx="43" cy="5" r="1" fill="#616161"/>
-        <circle cx="43" cy="-21" r="1" fill="#616161"/>
+    <g fill-rule="evenodd" transform="translate(0 32)">
+        <rect fill="#ffc107" width="44" height="32" x="2" y="-24" filter="url(#a)" rx="2" ry="2"/>
+        <rect opacity=".1" width="6" height="24" x="40" y="-20" rx="0" ry="0"/>
+        <path fill="#212121" d="M4-24c-1.108 0-2 .892-2 2V6c0 1.108.892 2 2 2h40c1.108 0 2-.892 2-2V2h-4v-6h4v-2h-4v-12h4v-4c0-1.108-.892-2-2-2H4z" clip-path="url(#b)" filter="url(#c)"/>
+        <circle fill="#616161" cx="5" cy="-21" r="1"/>
+        <circle fill="#616161" cx="5" cy="5" r="1"/>
+        <circle fill="#616161" cx="43" cy="5" r="1"/>
+        <circle fill="#616161" cx="43" cy="-21" r="1"/>
     </g>
 </svg>

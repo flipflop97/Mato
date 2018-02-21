@@ -1,12 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
     <defs>
-        <filter id="a" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity=".298" result="flood"/>
-            <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
-            <feGaussianBlur in="composite1" result="blur" stdDeviation=".8"/>
-            <feOffset dy=".4" result="offset"/>
-            <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+        <filter id="a">
+            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
+            <feOffset dy=".4"/>
+            <feComponentTransfer>
+                <feFuncA slope=".3" type="linear"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
         </filter>
     </defs>
-    <path d="M16 4a2 2 0 0 0-2 2v23.08A8 8 0 0 0 10 28a8 8 0 1 0 0 16 8 8 0 0 0 7.988-7.777A2 2 0 0 0 18 36V12h22v17.08A8 8 0 0 0 36 28a8 8 0 1 0 0 16 8 8 0 0 0 7.988-7.777A2 2 0 0 0 44 36V6a2 2 0 0 0-2-2h-1z" fill="#8bc34a" fill-rule="evenodd" filter="url(#a)"/>
+    <path fill="#8bc34a" fill-rule="evenodd" d="M16 4a2 2 0 0 0-2 2v23.08A8 8 0 0 0 10 28a8 8 0 1 0 0 16 8 8 0 0 0 7.988-7.777A2 2 0 0 0 18 36V12h22v17.08A8 8 0 0 0 36 28a8 8 0 1 0 0 16 8 8 0 0 0 7.988-7.777A2 2 0 0 0 44 36V6a2 2 0 0 0-2-2h-1z" filter="url(#a)"/>
 </svg>

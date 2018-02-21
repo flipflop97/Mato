@@ -1,41 +1,38 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
     <defs>
-        <filter id="a" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity=".298" result="flood"/>
-            <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
-            <feGaussianBlur in="composite1" result="blur" stdDeviation=".8"/>
-            <feOffset dy=".4" result="offset"/>
-            <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+        <filter id="a">
+            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
+            <feOffset dy=".4"/>
+            <feComponentTransfer>
+                <feFuncA slope=".3" type="linear"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
         </filter>
         <clipPath id="c">
-            <path d="M26-30h2l12 12v2H26z" fill="none" stroke="#000"/>
+            <path fill="none" stroke="#000" d="M26-30h2l12 12v2H26z"/>
         </clipPath>
-        <filter id="d" width="1.4" height="1.4" x="-.2" y="-.2" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity=".298" result="flood"/>
-            <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
-            <feGaussianBlur in="composite1" result="blur" stdDeviation=".8"/>
-            <feOffset dy=".4" result="offset"/>
-            <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
-        </filter>
         <clipPath id="b">
-            <path d="M10-30h18l12 12v30c0 1.108-.892 2-2 2H10c-1.108 0-2-.892-2-2v-40c0-1.108.892-2 2-2z" fill="#fff" fill-rule="evenodd"/>
+            <path fill="#fff" fill-rule="evenodd" d="M10-30h18l12 12v30c0 1.108-.892 2-2 2H10c-1.108 0-2-.892-2-2v-40c0-1.108.892-2 2-2z"/>
         </clipPath>
     </defs>
-    <g transform="translate(0 32)" fill-rule="evenodd">
-        <path d="M10-30h18l12 12v30c0 1.108-.892 2-2 2H10c-1.108 0-2-.892-2-2v-40c0-1.108.892-2 2-2z" fill="#fafafa" filter="url(#a)"/>
-        <circle cx="17" cy="-9" r="3" fill="#00bcd4"/>
-        <path d="M30-22c-1.781 0-2.673 2.154-1.414 3.414l12 12C41.846-5.326 43.999-6.219 44-8v-12a2 2 0 0 0-2-2z" clip-path="url(#b)" opacity=".1"/>
-        <rect width="14" height="14" x="28" y="-32" clip-path="url(#c)" rx="2" ry="2" fill="#fafafa" filter="url(#d)"/>
-        <rect width="20" height="12" x="14" y="-4" rx="2" ry="2" fill="#00bcd4"/>
-        <circle cx="31" cy="-9" r="3" fill="#00bcd4"/>
-        <circle cx="24" cy="-2" r="10" fill="#00bcd4"/>
-        <circle cx="20" cy="-5" r="3" fill="#fff"/>
-        <circle cx="28" cy="-5" r="3" fill="#fff"/>
+    <g fill-rule="evenodd" transform="translate(0 32)">
+        <path fill="#fafafa" d="M10-30h18l12 12v30c0 1.108-.892 2-2 2H10c-1.108 0-2-.892-2-2v-40c0-1.108.892-2 2-2z" filter="url(#a)"/>
+        <circle fill="#00bcd4" cx="17" cy="-9" r="3"/>
+        <path opacity=".1" d="M30-22c-1.781 0-2.673 2.154-1.414 3.414l12 12C41.846-5.326 43.999-6.219 44-8v-12a2 2 0 0 0-2-2z" clip-path="url(#b)"/>
+        <rect fill="#fafafa" width="14" height="14" x="28" y="-32" clip-path="url(#c)" filter="url(#a)" rx="2" ry="2"/>
+        <rect fill="#00bcd4" width="20" height="12" x="14" y="-4" rx="2" ry="2"/>
+        <circle fill="#00bcd4" cx="31" cy="-9" r="3"/>
+        <circle fill="#00bcd4" cx="24" cy="-2" r="10"/>
+        <circle fill="#fff" cx="20" cy="-5" r="3"/>
+        <circle fill="#fff" cx="28" cy="-5" r="3"/>
         <circle cx="19" cy="-5" r="1"/>
         <circle cx="27" cy="-5" r="1"/>
-        <rect width="2" height="4" x="22" y="-1" rx=".964" ry="1" fill="#fff"/>
-        <rect width="2" height="4" x="24" y="-1" rx=".964" ry="1" fill="#fff"/>
-        <rect width="6" height="2" x="21" y="-1" rx="1" ry="1" fill="#f7d3a2"/>
+        <rect fill="#fff" width="2" height="4" x="22" y="-1" rx=".964" ry="1"/>
+        <rect fill="#fff" width="2" height="4" x="24" y="-1" rx=".964" ry="1"/>
+        <rect fill="#f7d3a2" width="6" height="2" x="21" y="-1" rx="1" ry="1"/>
         <circle cx="24" cy="-1" r="1"/>
     </g>
 </svg>

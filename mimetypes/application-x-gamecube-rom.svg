@@ -3,18 +3,22 @@
         <clipPath id="b">
             <rect width="50" height="18" y="-2" rx="0" ry="0"/>
         </clipPath>
-        <filter id="a" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity=".298" result="flood"/>
-            <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
-            <feGaussianBlur in="composite1" result="blur" stdDeviation=".8"/>
-            <feOffset dy=".4" result="offset"/>
-            <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+        <filter id="a">
+            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
+            <feOffset dy=".4"/>
+            <feComponentTransfer>
+                <feFuncA slope=".3" type="linear"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
         </filter>
     </defs>
-    <g filter="url(#a)" fill-rule="evenodd" transform="translate(0 32)">
-        <path d="M24-30C11.944-30 2-20.056 2-8s9.944 22 22 22S46 4.056 46-8s-9.944-22-22-22zm0 16c3.408 0 6 2.592 6 6s-2.592 6-6 6-6-2.592-6-6 2.592-6 6-6z" fill="#3f51b5"/>
-        <path d="M24-30C11.944-30 2-20.056 2-8s9.944 22 22 22S46 4.056 46-8s-9.944-22-22-22zm0 16c3.408 0 6 2.592 6 6s-2.592 6-6 6-6-2.592-6-6 2.592-6 6-6z" clip-path="url(#b)" fill="#212121"/>
-        <path d="M24-16c-4.395 0-8 3.605-8 8s3.605 8 8 8 8-3.605 8-8-3.605-8-8-8zm0 4c2.233 0 4 1.767 4 4s-1.767 4-4 4a3.97 3.97 0 0 1-4-4c0-2.233 1.767-4 4-4z" fill="#9fa8da"/>
+    <g fill-rule="evenodd" filter="url(#a)" transform="translate(0 32)">
+        <path fill="#3f51b5" d="M24-30C11.944-30 2-20.056 2-8s9.944 22 22 22S46 4.056 46-8s-9.944-22-22-22zm0 16c3.408 0 6 2.592 6 6s-2.592 6-6 6-6-2.592-6-6 2.592-6 6-6z"/>
+        <path fill="#212121" d="M24-30C11.944-30 2-20.056 2-8s9.944 22 22 22S46 4.056 46-8s-9.944-22-22-22zm0 16c3.408 0 6 2.592 6 6s-2.592 6-6 6-6-2.592-6-6 2.592-6 6-6z" clip-path="url(#b)"/>
+        <path fill="#9fa8da" d="M24-16c-4.395 0-8 3.605-8 8s3.605 8 8 8 8-3.605 8-8-3.605-8-8-8zm0 4c2.233 0 4 1.767 4 4s-1.767 4-4 4a3.97 3.97 0 0 1-4-4c0-2.233 1.767-4 4-4z"/>
     </g>
-    <path d="M33 37H21v-2h12zM17 37h-2v-2h2z" fill="none" stroke="#fafafa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path fill="none" stroke="#fafafa" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M33 37H21v-2h12zm-16 0h-2v-2h2z"/>
 </svg>

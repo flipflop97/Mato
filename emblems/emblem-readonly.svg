@@ -9,9 +9,9 @@
         </filter>
     </defs>
     <g transform="translate(0 32)">
-        <circle cx="24" cy="-8" r="22" fill="#fff" fill-rule="evenodd" filter="url(#a)"/>
-        <rect width="20" height="16" x="14" y="-12" rx="2" ry="2" fill="#757575" fill-rule="evenodd"/>
-        <path d="M18-14a6 6 0 0 1 6-6 6 6 0 0 1 6 6" fill="none" stroke="#757575" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M18-14v6M30-14v6" fill="none" stroke="#757575" stroke-width="4"/>
+        <circle fill="#fff" fill-rule="evenodd" cx="24" cy="-8" r="22" filter="url(#a)"/>
+        <rect fill="#757575" fill-rule="evenodd" width="20" height="16" x="14" y="-12" rx="2" ry="2"/>
+        <path fill="none" stroke="#757575" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M18-14a6 6 0 0 1 6-6 6 6 0 0 1 6 6"/>
+        <path fill="none" stroke="#757575" stroke-width="4" d="M18-14v6m12-6v6"/>
     </g>
 </svg>

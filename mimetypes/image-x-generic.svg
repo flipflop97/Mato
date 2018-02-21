@@ -1,22 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
     <defs>
         <clipPath id="c">
-            <rect width="44" height="32" x="2" y="-24" rx="2" ry="2" fill="#03a9f4" fill-rule="evenodd"/>
+            <rect fill="#03a9f4" fill-rule="evenodd" width="44" height="32" x="2" y="-24" rx="2" ry="2"/>
         </clipPath>
         <clipPath id="b">
-            <rect width="44" height="32" x="2" y="-24" rx="2" ry="2" fill="#03a9f4" fill-rule="evenodd"/>
+            <rect fill="#03a9f4" fill-rule="evenodd" width="44" height="32" x="2" y="-24" rx="2" ry="2"/>
         </clipPath>
-        <filter id="a" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity=".298" result="flood"/>
-            <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
-            <feGaussianBlur in="composite1" result="blur" stdDeviation=".8"/>
-            <feOffset dy=".4" result="offset"/>
-            <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+        <filter id="a">
+            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
+            <feOffset dy=".4"/>
+            <feComponentTransfer>
+                <feFuncA slope=".3" type="linear"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
         </filter>
     </defs>
-    <g transform="translate(0 32)" fill-rule="evenodd">
-        <rect width="44" height="32" x="2" y="-24" rx="2" ry="2" fill="#ff5722" filter="url(#a)"/>
-        <path d="M12-2l14 14H-2z" clip-path="url(#b)" fill="#ff8a65" stroke="#ff8a65" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M34-10L48 4v6H14z" clip-path="url(#c)" fill="#ffab91" stroke="#ffab91" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill-rule="evenodd" transform="translate(0 32)">
+        <rect fill="#ff5722" width="44" height="32" x="2" y="-24" filter="url(#a)" rx="2" ry="2"/>
+        <path fill="#ff8a65" stroke="#ff8a65" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M12-2l14 14H-2z" clip-path="url(#b)"/>
+        <path fill="#ffab91" stroke="#ffab91" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M34-10L48 4v6H14z" clip-path="url(#c)"/>
     </g>
 </svg>

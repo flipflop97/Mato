@@ -15,14 +15,14 @@
             <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
         </filter>
         <clipPath id="b">
-            <rect width="12" height="10" x="50" y="-30" rx="0" ry="0" fill="#cfd8dc" fill-rule="evenodd"/>
+            <rect fill="#cfd8dc" fill-rule="evenodd" width="12" height="10" x="50" y="-30" rx="0" ry="0"/>
         </clipPath>
     </defs>
-    <g transform="translate(0 32)" fill-rule="evenodd">
+    <g fill-rule="evenodd" transform="translate(0 32)">
         <g filter="url(#a)">
-            <rect width="12" height="10" x="18" y="-30" rx="0" ry="0" fill="#cfd8dc"/>
-            <rect width="24" height="34" x="12" y="-20" rx="2" ry="2" fill="#212121"/>
+            <rect fill="#cfd8dc" width="12" height="10" x="18" y="-30" rx="0" ry="0"/>
+            <rect fill="#212121" width="24" height="34" x="12" y="-20" rx="2" ry="2"/>
         </g>
-        <rect width="24" height="34" x="44" y="-20" clip-path="url(#b)" rx="2" ry="2" transform="translate(-32)" fill="#212121" filter="url(#c)"/>
+        <rect fill="#212121" width="24" height="34" x="44" y="-20" clip-path="url(#b)" filter="url(#c)" rx="2" ry="2" transform="translate(-32)"/>
     </g>
 </svg>

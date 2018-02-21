@@ -1,41 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
     <defs>
-        <filter id="a" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity=".298" result="flood"/>
-            <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
-            <feGaussianBlur in="composite1" result="blur" stdDeviation=".8"/>
-            <feOffset dy=".4" result="offset"/>
-            <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+        <filter id="a">
+            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
+            <feOffset dy=".4"/>
+            <feComponentTransfer>
+                <feFuncA slope=".3" type="linear"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
         </filter>
-        <clipPath id="e">
-            <path d="M26-30h2l12 12v2H26z" fill="none" stroke="#000"/>
+        <clipPath id="d">
+            <path fill="none" stroke="#000" d="M26-30h2l12 12v2H26z"/>
         </clipPath>
-        <filter id="f" width="1.4" height="1.4" x="-.2" y="-.2" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity=".298" result="flood"/>
-            <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
-            <feGaussianBlur in="composite1" result="blur" stdDeviation=".8"/>
-            <feOffset dy=".4" result="offset"/>
-            <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
-        </filter>
-        <filter id="d" width="1.6" height="1.6" x="-.3" y="-.3" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity=".298" result="flood"/>
-            <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
-            <feGaussianBlur in="composite1" result="blur" stdDeviation=".8"/>
-            <feOffset dy=".4" result="offset"/>
-            <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
-        </filter>
         <clipPath id="c">
             <path fill="#828282" d="M10-30h16v16H10z"/>
         </clipPath>
         <clipPath id="b">
-            <path d="M10-30h18l12 12v30c0 1.108-.892 2-2 2H10c-1.108 0-2-.892-2-2v-40c0-1.108.892-2 2-2z" fill="#fafafa" fill-rule="evenodd"/>
+            <path fill="#fafafa" fill-rule="evenodd" d="M10-30h18l12 12v30c0 1.108-.892 2-2 2H10c-1.108 0-2-.892-2-2v-40c0-1.108.892-2 2-2z"/>
         </clipPath>
     </defs>
     <g transform="translate(0 32)">
-        <path d="M10-30h18l12 12v30c0 1.108-.892 2-2 2H10c-1.108 0-2-.892-2-2v-40c0-1.108.892-2 2-2z" fill="#fafafa" fill-rule="evenodd" filter="url(#a)"/>
-        <path d="M15-10h18M15-6h18M15-2h18M15 6h9M15 2h18" fill="none" stroke="#616161" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M17.984-33a1 1 0 0 0-.959.775l-3 13a1 1 0 0 0 .268.932l27 27C41.923 9.337 43 8.891 43 8v-28a1 1 0 0 0-1-1l-12-1-10-10c-.191-.191-1.745-1.004-2.016-1z" clip-path="url(#b)" opacity=".1" fill-rule="evenodd"/>
-        <path d="M14-30v11c0 .89 1.077 1.337 1.707.707L18-20.586l2.293 2.293c.63.63 1.707.184 1.707-.707v-11h-8z" clip-path="url(#c)" fill="#f44336" fill-rule="evenodd" filter="url(#d)"/>
-        <rect width="14" height="14" x="28" y="-32" clip-path="url(#e)" rx="2" ry="2" fill="#fafafa" fill-rule="evenodd" filter="url(#f)"/>
+        <path fill="#fafafa" fill-rule="evenodd" d="M10-30h18l12 12v30c0 1.108-.892 2-2 2H10c-1.108 0-2-.892-2-2v-40c0-1.108.892-2 2-2z" filter="url(#a)"/>
+        <path fill="none" stroke="#616161" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15-10h18M15-6h18M15-2h18M15 6h9m-9-4h18"/>
+        <path fill-rule="evenodd" opacity=".1" d="M17.984-33a1 1 0 0 0-.959.775l-3 13a1 1 0 0 0 .268.932l27 27C41.923 9.337 43 8.891 43 8v-28a1 1 0 0 0-1-1l-12-1-10-10c-.191-.191-1.745-1.004-2.016-1z" clip-path="url(#b)"/>
+        <path fill="#f44336" fill-rule="evenodd" d="M14-30v11c0 .89 1.077 1.337 1.707.707L18-20.586l2.293 2.293c.63.63 1.707.184 1.707-.707v-11h-8z" clip-path="url(#c)" filter="url(#a)"/>
+        <rect fill="#fafafa" fill-rule="evenodd" width="14" height="14" x="28" y="-32" clip-path="url(#d)" filter="url(#a)" rx="2" ry="2"/>
     </g>
 </svg>

@@ -1,17 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
     <defs>
-        <filter id="a" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity=".298" result="flood"/>
-            <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
-            <feGaussianBlur in="composite1" result="blur" stdDeviation=".8"/>
-            <feOffset dy=".4" result="offset"/>
-            <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+        <filter id="a">
+            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
+            <feOffset dy=".4"/>
+            <feComponentTransfer>
+                <feFuncA slope=".3" type="linear"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
         </filter>
     </defs>
     <g transform="translate(0 32)">
-        <rect width="38" height="38" x="5" y="-27" rx="2" ry="2" fill="#607d8b" fill-rule="evenodd" filter="url(#a)"/>
-        <rect width="20" height="20" x="14" y="-16" rx="2" ry="2" fill="#cfd8dc"/>
-        <circle cx="24" cy="-18" r="4" fill="#cfd8dc"/>
-        <circle cx="16" cy="-6" r="4" fill="#607d8b"/>
+        <rect fill="#607d8b" fill-rule="evenodd" width="38" height="38" x="5" y="-27" filter="url(#a)" rx="2" ry="2"/>
+        <rect fill="#cfd8dc" width="20" height="20" x="14" y="-16" rx="2" ry="2"/>
+        <circle fill="#cfd8dc" cx="24" cy="-18" r="4"/>
+        <circle fill="#607d8b" cx="16" cy="-6" r="4"/>
     </g>
 </svg>
