@@ -1,26 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
     <defs>
-        <filter id="c" height="1.4" y="-.2" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity=".298" result="flood"/>
-            <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
-            <feGaussianBlur in="composite1" result="blur" stdDeviation=".8"/>
-            <feOffset dy=".4" result="offset"/>
-            <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
-        </filter>
         <clipPath id="b">
             <path fill="#5d4037" fill-rule="evenodd" d="M4-24a2 2 0 0 0-2 2V6a2 2 0 0 0 2 2h40a2 2 0 0 0 2-2v-28a2 2 0 0 0-2-2H28a2 2 0 0 0-1.414.586L24-20.828l-2.586-2.586A2 2 0 0 0 20-24H4z"/>
         </clipPath>
-        <filter id="a" height="1.4" y="-.2" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity=".298" result="flood"/>
-            <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
-            <feGaussianBlur in="composite1" result="blur" stdDeviation=".8"/>
-            <feOffset dy=".4" result="offset"/>
-            <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+        <filter id="a">
+            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
+            <feOffset dy=".4"/>
+            <feComponentTransfer>
+                <feFuncA slope=".3" type="linear"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
         </filter>
     </defs>
     <g stroke-linecap="round" stroke-linejoin="round">
         <path fill="#795548" fill-rule="evenodd" stroke="#795548" stroke-width="4" d="M4-22V6h40v-28H28l-4 4-4-4H4z" filter="url(#a)" transform="translate(0 32)"/>
-        <path fill="#8d6e63" fill-rule="evenodd" stroke="#8d6e63" stroke-width="4" d="M44-22H28l-6 6H4V6h40z" clip-path="url(#b)" filter="url(#c)" transform="matrix(-1 0 0 1 48 32)"/>
+        <path fill="#8d6e63" fill-rule="evenodd" stroke="#8d6e63" stroke-width="4" d="M44-22H28l-6 6H4V6h40z" clip-path="url(#b)" filter="url(#a)" transform="matrix(-1 0 0 1 48 32)"/>
         <path fill="none" stroke="#795548" stroke-width="2" d="M24 19v12l-6-6 6 6 6-6M18 35h12"/>
     </g>
 </svg>
