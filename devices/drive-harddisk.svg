@@ -1,261 +1,30 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="48"
-   height="48"
-   id="svg4152"
-   version="1.1"
-   inkscape:version="0.91 r13725"
-   viewBox="0 0 48 48"
-   sodipodi:docname="drive-harddisk.svg">
-  <defs
-     id="defs4154">
-    <filter
-       style="color-interpolation-filters:sRGB;"
-       inkscape:label="Drop Shadow"
-       id="filter4155">
-      <feFlood
-         flood-opacity="0.298039"
-         flood-color="rgb(0,0,0)"
-         result="flood"
-         id="feFlood4157" />
-      <feComposite
-         in="flood"
-         in2="SourceGraphic"
-         operator="in"
-         result="composite1"
-         id="feComposite4159" />
-      <feGaussianBlur
-         in="composite1"
-         stdDeviation="0.8"
-         result="blur"
-         id="feGaussianBlur4161" />
-      <feOffset
-         dx="0"
-         dy="0.4"
-         result="offset"
-         id="feOffset4163" />
-      <feComposite
-         in="SourceGraphic"
-         in2="offset"
-         operator="over"
-         result="composite2"
-         id="feComposite4165" />
-    </filter>
-    <filter
-       style="color-interpolation-filters:sRGB;"
-       inkscape:label="Drop Shadow"
-       id="filter4164">
-      <feFlood
-         flood-opacity="0.298039"
-         flood-color="rgb(0,0,0)"
-         result="flood"
-         id="feFlood4166" />
-      <feComposite
-         in="flood"
-         in2="SourceGraphic"
-         operator="in"
-         result="composite1"
-         id="feComposite4168" />
-      <feGaussianBlur
-         in="composite1"
-         stdDeviation="0.8"
-         result="blur"
-         id="feGaussianBlur4170" />
-      <feOffset
-         dx="0"
-         dy="0.4"
-         result="offset"
-         id="feOffset4172" />
-      <feComposite
-         in="SourceGraphic"
-         in2="offset"
-         operator="over"
-         result="composite2"
-         id="feComposite4174" />
-    </filter>
-    <filter
-       style="color-interpolation-filters:sRGB"
-       inkscape:label="Drop Shadow"
-       id="filter4164-6">
-      <feFlood
-         flood-opacity="0.298039"
-         flood-color="rgb(0,0,0)"
-         result="flood"
-         id="feFlood4166-7" />
-      <feComposite
-         in="flood"
-         in2="SourceGraphic"
-         operator="in"
-         result="composite1"
-         id="feComposite4168-5" />
-      <feGaussianBlur
-         in="composite1"
-         stdDeviation="0.8"
-         result="blur"
-         id="feGaussianBlur4170-3" />
-      <feOffset
-         dx="0"
-         dy="0.4"
-         result="offset"
-         id="feOffset4172-5" />
-      <feComposite
-         in="SourceGraphic"
-         in2="offset"
-         operator="over"
-         result="composite2"
-         id="feComposite4174-6" />
-    </filter>
-    <filter
-       style="color-interpolation-filters:sRGB;"
-       inkscape:label="Drop Shadow"
-       id="filter4212">
-      <feFlood
-         flood-opacity="0.298039"
-         flood-color="rgb(0,0,0)"
-         result="flood"
-         id="feFlood4214" />
-      <feComposite
-         in="flood"
-         in2="SourceGraphic"
-         operator="in"
-         result="composite1"
-         id="feComposite4216" />
-      <feGaussianBlur
-         in="composite1"
-         stdDeviation="0.8"
-         result="blur"
-         id="feGaussianBlur4218" />
-      <feOffset
-         dx="0"
-         dy="0.4"
-         result="offset"
-         id="feOffset4220" />
-      <feComposite
-         in="SourceGraphic"
-         in2="offset"
-         operator="over"
-         result="composite2"
-         id="feComposite4222" />
-    </filter>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath4228">
-      <rect
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffc107;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.25098039;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         id="rect4230"
-         width="44"
-         height="32"
-         x="2"
-         y="-24"
-         ry="2"
-         rx="2" />
-    </clipPath>
-  </defs>
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ededed"
-     bordercolor="#000000"
-     borderopacity="0.49803922"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="11.098901"
-     inkscape:cx="13.807917"
-     inkscape:cy="23.617887"
-     inkscape:current-layer="layer1"
-     showgrid="true"
-     inkscape:grid-bbox="true"
-     inkscape:document-units="px"
-     inkscape:showpageshadow="false"
-     borderlayer="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1012"
-     inkscape:window-x="0"
-     inkscape:window-y="32"
-     inkscape:window-maximized="1">
-    <inkscape:grid
-       type="xygrid"
-       id="grid4700"
-       color="#000000"
-       opacity="0.0627451"
-       empcolor="#000000"
-       empopacity="0.1254902"
-       empspacing="4"
-       spacingx="2"
-       spacingy="2" />
-  </sodipodi:namedview>
-  <metadata
-     id="metadata4157">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     id="layer1"
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     transform="translate(0,32)">
-    <rect
-       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffc107;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.25098039;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;filter:url(#filter4164)"
-       id="rect4142-6"
-       width="44"
-       height="32"
-       x="2"
-       y="-24"
-       ry="2"
-       rx="2" />
-    <rect
-       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       id="rect4232"
-       width="6"
-       height="24"
-       x="40"
-       y="-20"
-       rx="0"
-       ry="0" />
-    <path
-       inkscape:connector-curvature="0"
-       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#212121;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.25098039;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;filter:url(#filter4212)"
-       d="m 4,-24.000001 c -1.108,0 -2,0.892 -2,2 L 2,5.9999993 c 0,1.108 0.892,2 2,2 l 40,0 c 1.108,0 2,-0.892 2,-2 l 0,-4 -4,0 0,-6 4,0 0,-2 -4,0 0,-12.0000003 4,0 0,-4 c 0,-1.108 -0.892,-2 -2,-2 l -40,0 z"
-       id="rect4142-6-3-9"
-       clip-path="url(#clipPath4228)" />
-    <circle
-       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#616161;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       id="path4167"
-       cx="5"
-       cy="-21"
-       r="1" />
-    <circle
-       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#616161;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       id="path4167-6"
-       cx="5"
-       cy="5"
-       r="1" />
-    <circle
-       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#616161;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       id="path4167-7"
-       cx="43"
-       cy="5"
-       r="1" />
-    <circle
-       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#616161;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       id="path4167-5"
-       cx="43"
-       cy="-21"
-       r="1" />
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+    <defs>
+        <filter id="a" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity=".298" result="flood"/>
+            <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+            <feGaussianBlur in="composite1" result="blur" stdDeviation=".8"/>
+            <feOffset dy=".4" result="offset"/>
+            <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+        </filter>
+        <filter id="c" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity=".298" result="flood"/>
+            <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+            <feGaussianBlur in="composite1" result="blur" stdDeviation=".8"/>
+            <feOffset dy=".4" result="offset"/>
+            <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+        </filter>
+        <clipPath id="b">
+            <rect width="44" height="32" x="2" y="-24" rx="2" ry="2" fill="#ffc107" fill-rule="evenodd"/>
+        </clipPath>
+    </defs>
+    <g transform="translate(0 32)" fill-rule="evenodd">
+        <rect width="44" height="32" x="2" y="-24" rx="2" ry="2" fill="#ffc107" filter="url(#a)"/>
+        <rect width="6" height="24" x="40" y="-20" rx="0" ry="0" opacity=".1"/>
+        <path d="M4-24c-1.108 0-2 .892-2 2V6c0 1.108.892 2 2 2h40c1.108 0 2-.892 2-2V2h-4v-6h4v-2h-4v-12h4v-4c0-1.108-.892-2-2-2H4z" clip-path="url(#b)" fill="#212121" filter="url(#c)"/>
+        <circle cx="5" cy="-21" r="1" fill="#616161"/>
+        <circle cx="5" cy="5" r="1" fill="#616161"/>
+        <circle cx="43" cy="5" r="1" fill="#616161"/>
+        <circle cx="43" cy="-21" r="1" fill="#616161"/>
+    </g>
 </svg>

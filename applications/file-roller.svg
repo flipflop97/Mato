@@ -1,1 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48"><defs><filter id="a"><feGaussianBlur in="SourceAlpha" stdDeviation=".8"/><feOffset dy=".4"/><feComponentTransfer><feFuncA slope=".3" type="linear"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter><clipPath id="c"><path fill="#cfd8dc" fill-rule="evenodd" d="M-38-28a2 2 0 0 0-2 2V4a2 2 0 0 0 2 2h28a2 2 0 0 0 2-2v-30a2 2 0 0 0-2-2h-28zm2 4h24V2h-24v-26z"/></clipPath><clipPath id="b"><path fill="#cfd8dc" fill-rule="evenodd" d="M10-28a2 2 0 0 0-2 2V4a2 2 0 0 0 2 2h28a2 2 0 0 0 2-2v-30a2 2 0 0 0-2-2H10zm2 4h24V2H12v-26z"/></clipPath></defs><g fill-rule="evenodd"><g filter="url(#a)" transform="translate(0 32)"><path fill="#78909c" d="M10-28a2 2 0 0 0-2 2V4a2 2 0 0 0 2 2h28a2 2 0 0 0 2-2v-30a2 2 0 0 0-2-2H10zm2 4h24V2H12v-26z"/><path fill="#cfd8dc" d="M8-30c-1.108 0-2 .892-2 2v4c0 1.108.892 2 2 2h32c1.108 0 2-.892 2-2v-4c0-1.108-.892-2-2-2H8zm6 24c-1.108 0-2 .892-2 2v16c0 1.108.892 2 2 2h20c1.108 0 2-.892 2-2V-4c0-1.108-.892-2-2-2H14z"/></g><path opacity=".1" d="M8-30a2 2 0 0 0-2 2v4a2 2 0 0 0 .586 1.414L23.172-6H14a2 2 0 0 0-2 2v16a2 2 0 0 0 .586 1.414l6 6A2 2 0 0 0 20 20h30a2 2 0 0 0 2-2v-36a2 2 0 0 0-.586-1.414l-10-10A2 2 0 0 0 40-30z" clip-path="url(#b)" transform="translate(0 32)"/><path fill="#cfd8dc" d="M-40-30c-1.108 0-2 .892-2 2v4c0 1.108.892 2 2 2h32c1.108 0 2-.892 2-2v-4c0-1.108-.892-2-2-2h-32zm6 24c-1.108 0-2 .892-2 2v16c0 1.108.892 2 2 2h20c1.108 0 2-.892 2-2V-4c0-1.108-.892-2-2-2h-20z" clip-path="url(#c)" filter="url(#a)" transform="translate(48 32)"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+    <defs>
+        <filter id="a">
+            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
+            <feOffset dy=".4"/>
+            <feComponentTransfer>
+                <feFuncA slope=".3" type="linear"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <clipPath id="c">
+            <path fill="#cfd8dc" fill-rule="evenodd" d="M-38-28a2 2 0 0 0-2 2V4a2 2 0 0 0 2 2h28a2 2 0 0 0 2-2v-30a2 2 0 0 0-2-2h-28zm2 4h24V2h-24v-26z"/>
+        </clipPath>
+        <clipPath id="b">
+            <path fill="#cfd8dc" fill-rule="evenodd" d="M10-28a2 2 0 0 0-2 2V4a2 2 0 0 0 2 2h28a2 2 0 0 0 2-2v-30a2 2 0 0 0-2-2H10zm2 4h24V2H12v-26z"/>
+        </clipPath>
+    </defs>
+    <g fill-rule="evenodd">
+        <g filter="url(#a)" transform="translate(0 32)">
+            <path fill="#78909c" d="M10-28a2 2 0 0 0-2 2V4a2 2 0 0 0 2 2h28a2 2 0 0 0 2-2v-30a2 2 0 0 0-2-2H10zm2 4h24V2H12v-26z"/>
+            <path fill="#cfd8dc" d="M8-30c-1.108 0-2 .892-2 2v4c0 1.108.892 2 2 2h32c1.108 0 2-.892 2-2v-4c0-1.108-.892-2-2-2H8zm6 24c-1.108 0-2 .892-2 2v16c0 1.108.892 2 2 2h20c1.108 0 2-.892 2-2V-4c0-1.108-.892-2-2-2H14z"/>
+        </g>
+        <path opacity=".1" d="M8-30a2 2 0 0 0-2 2v4a2 2 0 0 0 .586 1.414L23.172-6H14a2 2 0 0 0-2 2v16a2 2 0 0 0 .586 1.414l6 6A2 2 0 0 0 20 20h30a2 2 0 0 0 2-2v-36a2 2 0 0 0-.586-1.414l-10-10A2 2 0 0 0 40-30z" clip-path="url(#b)" transform="translate(0 32)"/>
+        <path fill="#cfd8dc" d="M-40-30c-1.108 0-2 .892-2 2v4c0 1.108.892 2 2 2h32c1.108 0 2-.892 2-2v-4c0-1.108-.892-2-2-2h-32zm6 24c-1.108 0-2 .892-2 2v16c0 1.108.892 2 2 2h20c1.108 0 2-.892 2-2V-4c0-1.108-.892-2-2-2h-20z" clip-path="url(#c)" filter="url(#a)" transform="translate(48 32)"/>
+    </g>
+</svg>

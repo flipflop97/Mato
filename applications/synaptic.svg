@@ -1,1 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48"><defs><filter id="a"><feGaussianBlur in="SourceAlpha" stdDeviation=".8"/><feOffset dy=".4"/><feComponentTransfer><feFuncA slope=".3" type="linear"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter><clipPath id="b"><path fill="#5d4037" fill-rule="evenodd" d="M2-22a2 2 0 0 0-2 2V8a2 2 0 0 0 2 2h40a2 2 0 0 0 2-2v-28a2 2 0 0 0-2-2H26a2 2 0 0 0-1.414.586L22-18.828l-2.586-2.586A2 2 0 0 0 18-22H2z"/></clipPath></defs><path fill="#8d6e63" fill-rule="evenodd" d="M18-30l-4 4v4H4c-1.108 0-2 .892-2 2V8c0 1.108.892 2 2 2h40c1.108 0 2-.892 2-2v-28c0-1.108-.892-2-2-2H34v-4l-4-4zm0 4h12v4H18z" filter="url(#a)" transform="translate(0 32)"/><path fill="none" stroke="#795548" stroke-linecap="square" stroke-linejoin="round" stroke-width="4" d="M36 12v13"/><path fill-rule="evenodd" opacity=".1" d="M32-8a2 2 0 0 0-2 2v8a2 2 0 0 0 .586 1.414l12 12a2 2 0 0 0 2.828 0l6-6a2 2 0 0 0 0-2.828l-14-14A2 2 0 0 0 36-8z" clip-path="url(#b)" transform="translate(2 32)"/><path fill="#cfd8dc" fill-rule="evenodd" d="M34-8c-1.108 0-2 .892-2 2v8c0 1.108.892 2 2 2h4c1.108 0 2-.892 2-2v-8c0-1.108-.892-2-2-2zm0 6h4v4h-4z" filter="url(#a)" transform="translate(0 32)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+    <defs>
+        <filter id="a">
+            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
+            <feOffset dy=".4"/>
+            <feComponentTransfer>
+                <feFuncA slope=".3" type="linear"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <clipPath id="b">
+            <path fill="#5d4037" fill-rule="evenodd" d="M2-22a2 2 0 0 0-2 2V8a2 2 0 0 0 2 2h40a2 2 0 0 0 2-2v-28a2 2 0 0 0-2-2H26a2 2 0 0 0-1.414.586L22-18.828l-2.586-2.586A2 2 0 0 0 18-22H2z"/>
+        </clipPath>
+    </defs>
+    <path fill="#8d6e63" fill-rule="evenodd" d="M18-30l-4 4v4H4c-1.108 0-2 .892-2 2V8c0 1.108.892 2 2 2h40c1.108 0 2-.892 2-2v-28c0-1.108-.892-2-2-2H34v-4l-4-4zm0 4h12v4H18z" filter="url(#a)" transform="translate(0 32)"/>
+    <path fill="none" stroke="#795548" stroke-linecap="square" stroke-linejoin="round" stroke-width="4" d="M36 12v13"/>
+    <path fill-rule="evenodd" opacity=".1" d="M32-8a2 2 0 0 0-2 2v8a2 2 0 0 0 .586 1.414l12 12a2 2 0 0 0 2.828 0l6-6a2 2 0 0 0 0-2.828l-14-14A2 2 0 0 0 36-8z" clip-path="url(#b)" transform="translate(2 32)"/>
+    <path fill="#cfd8dc" fill-rule="evenodd" d="M34-8c-1.108 0-2 .892-2 2v8c0 1.108.892 2 2 2h4c1.108 0 2-.892 2-2v-8c0-1.108-.892-2-2-2zm0 6h4v4h-4z" filter="url(#a)" transform="translate(0 32)"/>
+</svg>

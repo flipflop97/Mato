@@ -1,1 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48"><defs><filter id="a"><feGaussianBlur in="SourceAlpha" stdDeviation=".8"/><feOffset dy=".4"/><feComponentTransfer><feFuncA slope=".3" type="linear"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><g transform="translate(0 32)"><circle fill="#2196f3" fill-rule="evenodd" cx="24" cy="-8" r="22" filter="url(#a)"/><circle fill="#e3f2fd" cx="24" cy="-20" r="4"/><path fill="#e3f2fd" fill-rule="evenodd" stroke="#e3f2fd" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M12-12h24"/><rect fill="#e3f2fd" width="10" height="12" x="19" y="-14" rx="0" ry="0"/><path fill="none" stroke="#e3f2fd" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M21 6v-18h6V6"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+    <defs>
+        <filter id="a">
+            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
+            <feOffset dy=".4"/>
+            <feComponentTransfer>
+                <feFuncA slope=".3" type="linear"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g transform="translate(0 32)">
+        <circle fill="#2196f3" fill-rule="evenodd" cx="24" cy="-8" r="22" filter="url(#a)"/>
+        <circle fill="#e3f2fd" cx="24" cy="-20" r="4"/>
+        <path fill="#e3f2fd" fill-rule="evenodd" stroke="#e3f2fd" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M12-12h24"/>
+        <rect fill="#e3f2fd" width="10" height="12" x="19" y="-14" rx="0" ry="0"/>
+        <path fill="none" stroke="#e3f2fd" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M21 6v-18h6V6"/>
+    </g>
+</svg>

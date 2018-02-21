@@ -1,1 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48"><defs><filter id="a"><feGaussianBlur in="SourceAlpha" stdDeviation=".8"/><feOffset dy=".4"/><feComponentTransfer><feFuncA slope=".3" type="linear"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><g transform="translate(0 32)"><circle fill="#212121" fill-rule="evenodd" cx="24" cy="-8" r="22" filter="url(#a)"/><path fill="none" stroke="#616161" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M24 11V9M5-8h2m36 0h-2M24-27v2M40.454 1.5l-1.732-1M33.5 8.454l-1-1.732m-18 1.732l1-1.732M7.546 1.5l1.732-1m31.176-18l-1.732 1m-31.176-1l1.732 1M33.5-24.454l-1 1.732m-18-1.732l1 1.732"/><path opacity=".1" d="M23.97-25A2 2 0 0 0 22-23v15a2 2 0 0 0 .07.516l-9.777 9.777a1 1 0 0 0 0 1.414l10.219 10.219A22 22 0 0 0 24 14 22 22 0 0 0 45.645-4.184l-20.23-20.23A2 2 0 0 0 23.97-25z"/><g filter="url(#a)"><path fill="#f44336" d="M23.98-9.01a1 1 0 0 0-.687.303l-11 11c-.982.942.472 2.396 1.414 1.414l11-11c.654-.636.185-1.744-.727-1.717z"/><path fill="#eceff1" d="M23.97-25.027A2 2 0 0 0 22-23v15a2 2 0 0 0 .586 1.414l7 7c1.885 1.963 4.791-.943 2.828-2.828L26-8.828V-23a2 2 0 0 0-2.03-2.027z"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+    <defs>
+        <filter id="a">
+            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
+            <feOffset dy=".4"/>
+            <feComponentTransfer>
+                <feFuncA slope=".3" type="linear"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g transform="translate(0 32)">
+        <circle fill="#212121" fill-rule="evenodd" cx="24" cy="-8" r="22" filter="url(#a)"/>
+        <path fill="none" stroke="#616161" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M24 11V9M5-8h2m36 0h-2M24-27v2M40.454 1.5l-1.732-1M33.5 8.454l-1-1.732m-18 1.732l1-1.732M7.546 1.5l1.732-1m31.176-18l-1.732 1m-31.176-1l1.732 1M33.5-24.454l-1 1.732m-18-1.732l1 1.732"/>
+        <path opacity=".1" d="M23.97-25A2 2 0 0 0 22-23v15a2 2 0 0 0 .07.516l-9.777 9.777a1 1 0 0 0 0 1.414l10.219 10.219A22 22 0 0 0 24 14 22 22 0 0 0 45.645-4.184l-20.23-20.23A2 2 0 0 0 23.97-25z"/>
+        <g filter="url(#a)">
+            <path fill="#f44336" d="M23.98-9.01a1 1 0 0 0-.687.303l-11 11c-.982.942.472 2.396 1.414 1.414l11-11c.654-.636.185-1.744-.727-1.717z"/>
+            <path fill="#eceff1" d="M23.97-25.027A2 2 0 0 0 22-23v15a2 2 0 0 0 .586 1.414l7 7c1.885 1.963 4.791-.943 2.828-2.828L26-8.828V-23a2 2 0 0 0-2.03-2.027z"/>
+        </g>
+    </g>
+</svg>
