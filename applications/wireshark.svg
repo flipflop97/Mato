@@ -1,1 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48"><defs><clipPath id="c"><rect fill="#e3f2fd" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".251" stroke-width=".1" width="38" height="38" x="5" y="5" color="#000" overflow="visible" rx="2" ry="2"/></clipPath><filter id="a"><feGaussianBlur in="SourceAlpha" stdDeviation=".8"/><feOffset dy=".4"/><feComponentTransfer><feFuncA slope=".3" type="linear"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter><clipPath id="b"><rect fill="#2196f3" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".251" stroke-width=".1" width="38" height="38" x="5" y="-27" color="#000" overflow="visible" rx="2" ry="2"/></clipPath></defs><g fill-rule="evenodd" transform="translate(0 32)"><rect fill="#2196f3" width="38" height="38" x="5" y="-27" color="#000" filter="url(#a)" overflow="visible" rx="2" ry="2"/><path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" opacity=".1" d="M32-16L44-4v6H32z" clip-path="url(#b)"/><path fill="#e3f2fd" d="M32 14c-9.917 0-18 8.083-18 18H2v14h44V32H34V16a2 2 0 0 0-2-2z" clip-path="url(#c)" color="#000" filter="url(#a)" font-family="sans-serif" font-weight="400" overflow="visible" transform="translate(0 -32)"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+    <defs>
+        <clipPath id="c">
+            <rect fill="#e3f2fd" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".251" stroke-width=".1" width="38" height="38" x="5" y="5" color="#000" overflow="visible" rx="2" ry="2"/>
+        </clipPath>
+        <filter id="a">
+            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
+            <feOffset dy=".4"/>
+            <feComponentTransfer>
+                <feFuncA slope=".3" type="linear"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <clipPath id="b">
+            <rect fill="#2196f3" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".251" stroke-width=".1" width="38" height="38" x="5" y="-27" color="#000" overflow="visible" rx="2" ry="2"/>
+        </clipPath>
+    </defs>
+    <g fill-rule="evenodd" transform="translate(0 32)">
+        <rect fill="#2196f3" width="38" height="38" x="5" y="-27" color="#000" filter="url(#a)" overflow="visible" rx="2" ry="2"/>
+        <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" opacity=".1" d="M32-16L44-4v6H32z" clip-path="url(#b)"/>
+        <path fill="#e3f2fd" d="M32 14c-9.917 0-18 8.083-18 18H2v14h44V32H34V16a2 2 0 0 0-2-2z" clip-path="url(#c)" color="#000" filter="url(#a)" font-family="sans-serif" font-weight="400" overflow="visible" transform="translate(0 -32)"/>
+    </g>
+</svg>

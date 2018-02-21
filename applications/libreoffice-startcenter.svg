@@ -1,1 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48"><defs><clipPath id="c"><path fill="#fff" fill-rule="evenodd" d="M10-30h18l12 12v30c0 1.108-.892 2-2 2H10c-1.108 0-2-.892-2-2v-40c0-1.108.892-2 2-2z"/></clipPath><clipPath id="d"><rect fill="#e8eaf6" fill-rule="evenodd" width="32" height="44" x="8" y="-30" rx="2" ry="2"/></clipPath><filter id="a"><feGaussianBlur in="SourceAlpha" stdDeviation=".8"/><feOffset dy=".4"/><feComponentTransfer><feFuncA slope=".3" type="linear"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter><clipPath id="b"><rect fill="#e8eaf6" fill-rule="evenodd" width="32" height="44" x="8" y="-30" rx="2" ry="2"/></clipPath></defs><g fill-rule="evenodd" transform="translate(0 32)"><rect fill="#fafafa" width="32" height="44" x="8" y="-30" filter="url(#a)" rx="2" ry="2"/><path fill="#616161" d="M40-18H30c-1.108 0-2-.892-2-2v-10z" clip-path="url(#b)" transform="rotate(180 34 -24)"/><path opacity=".1" d="M30-22c-1.781 0-2.673 2.154-1.414 3.414l12 12C41.846-5.326 43.999-6.219 44-8v-12a2 2 0 0 0-2-2z" clip-path="url(#c)"/><path fill="#fafafa" d="M40-18H30c-1.108 0-2-.892-2-2v-10z" clip-path="url(#d)" filter="url(#a)"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+    <defs>
+        <clipPath id="c">
+            <path fill="#fff" fill-rule="evenodd" d="M10-30h18l12 12v30c0 1.108-.892 2-2 2H10c-1.108 0-2-.892-2-2v-40c0-1.108.892-2 2-2z"/>
+        </clipPath>
+        <clipPath id="d">
+            <rect fill="#e8eaf6" fill-rule="evenodd" width="32" height="44" x="8" y="-30" rx="2" ry="2"/>
+        </clipPath>
+        <filter id="a">
+            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
+            <feOffset dy=".4"/>
+            <feComponentTransfer>
+                <feFuncA slope=".3" type="linear"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <clipPath id="b">
+            <rect fill="#e8eaf6" fill-rule="evenodd" width="32" height="44" x="8" y="-30" rx="2" ry="2"/>
+        </clipPath>
+    </defs>
+    <g fill-rule="evenodd" transform="translate(0 32)">
+        <rect fill="#fafafa" width="32" height="44" x="8" y="-30" filter="url(#a)" rx="2" ry="2"/>
+        <path fill="#616161" d="M40-18H30c-1.108 0-2-.892-2-2v-10z" clip-path="url(#b)" transform="rotate(180 34 -24)"/>
+        <path opacity=".1" d="M30-22c-1.781 0-2.673 2.154-1.414 3.414l12 12C41.846-5.326 43.999-6.219 44-8v-12a2 2 0 0 0-2-2z" clip-path="url(#c)"/>
+        <path fill="#fafafa" d="M40-18H30c-1.108 0-2-.892-2-2v-10z" clip-path="url(#d)" filter="url(#a)"/>
+    </g>
+</svg>

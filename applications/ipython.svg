@@ -1,1 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48"><defs><filter id="a"><feGaussianBlur in="SourceAlpha" stdDeviation=".8"/><feOffset dy=".4"/><feComponentTransfer><feFuncA slope=".3" type="linear"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><g transform="translate(0 32)"><rect fill="#212121" fill-rule="evenodd" width="44" height="32" x="2" y="-24" filter="url(#a)" rx="2" ry="2"/><path fill="none" stroke="#f5f5f5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9-12v8"/><path fill="none" stroke="#2196f3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M25-4h-2v-8h2"/><path fill="none" stroke="#f5f5f5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11-12H7m4 8H7m8-8v8"/><path fill="none" stroke="#2196f3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M35-4h2v-8h-2"/><path fill="none" stroke="#f5f5f5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17-12a2 2 0 0 1 2 2 2 2 0 0 1-2 2m0-4h-2m2 4h-2m17-2l-3 6m-1-6l2 4"/><circle fill="#2196f3" fill-rule="evenodd" cx="41" cy="-10" r="1"/><circle fill="#2196f3" fill-rule="evenodd" cx="41" cy="-6" r="1"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+    <defs>
+        <filter id="a">
+            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
+            <feOffset dy=".4"/>
+            <feComponentTransfer>
+                <feFuncA slope=".3" type="linear"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g transform="translate(0 32)">
+        <rect fill="#212121" fill-rule="evenodd" width="44" height="32" x="2" y="-24" filter="url(#a)" rx="2" ry="2"/>
+        <path fill="none" stroke="#f5f5f5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9-12v8"/>
+        <path fill="none" stroke="#2196f3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M25-4h-2v-8h2"/>
+        <path fill="none" stroke="#f5f5f5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11-12H7m4 8H7m8-8v8"/>
+        <path fill="none" stroke="#2196f3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M35-4h2v-8h-2"/>
+        <path fill="none" stroke="#f5f5f5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17-12a2 2 0 0 1 2 2 2 2 0 0 1-2 2m0-4h-2m2 4h-2m17-2l-3 6m-1-6l2 4"/>
+        <circle fill="#2196f3" fill-rule="evenodd" cx="41" cy="-10" r="1"/>
+        <circle fill="#2196f3" fill-rule="evenodd" cx="41" cy="-6" r="1"/>
+    </g>
+</svg>

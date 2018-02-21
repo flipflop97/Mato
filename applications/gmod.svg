@@ -1,1 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48"><defs><filter id="a"><feGaussianBlur in="SourceAlpha" stdDeviation=".8"/><feOffset dy=".4"/><feComponentTransfer><feFuncA slope=".3" type="linear"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><g transform="translate(0 32)"><rect fill="#03a9f4" fill-rule="evenodd" width="38" height="38" x="5" y="-27" filter="url(#a)" rx="2" ry="2"/><path fill="none" stroke="#e1f5fe" stroke-linecap="square" stroke-linejoin="round" stroke-width="4" d="M30-12a6 6 0 0 1-3 5.196 6 6 0 0 1-6 0A6 6 0 0 1 18-12"/><path fill="none" stroke="#e1f5fe" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M30-20v18m0 0a6 6 0 0 1-5.217 5.949 6 6 0 0 1-6.579-4.396"/><path fill="none" stroke="#e1f5fe" stroke-linecap="square" stroke-linejoin="round" stroke-width="4" d="M18-14.03a6 6 0 0 1 3-5.196 6 6 0 0 1 6 0 6 6 0 0 1 3 5.196"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+    <defs>
+        <filter id="a">
+            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
+            <feOffset dy=".4"/>
+            <feComponentTransfer>
+                <feFuncA slope=".3" type="linear"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g transform="translate(0 32)">
+        <rect fill="#03a9f4" fill-rule="evenodd" width="38" height="38" x="5" y="-27" filter="url(#a)" rx="2" ry="2"/>
+        <path fill="none" stroke="#e1f5fe" stroke-linecap="square" stroke-linejoin="round" stroke-width="4" d="M30-12a6 6 0 0 1-3 5.196 6 6 0 0 1-6 0A6 6 0 0 1 18-12"/>
+        <path fill="none" stroke="#e1f5fe" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M30-20v18m0 0a6 6 0 0 1-5.217 5.949 6 6 0 0 1-6.579-4.396"/>
+        <path fill="none" stroke="#e1f5fe" stroke-linecap="square" stroke-linejoin="round" stroke-width="4" d="M18-14.03a6 6 0 0 1 3-5.196 6 6 0 0 1 6 0 6 6 0 0 1 3 5.196"/>
+    </g>
+</svg>
