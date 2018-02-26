@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+    <defs>
+        <filter id="a">
+            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
+            <feOffset dy=".4"/>
+            <feComponentTransfer>
+                <feFuncA slope=".3" type="linear"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <rect ry="2" rx="2" y="6" x="2" height="36" width="44" fill="#b0bec5" fill-rule="evenodd" filter="url(#a)"/>
+    <circle cx="42" cy="38" r="2" fill="#607d8b"/>
+    <circle cx="42" cy="10" r="2" fill="#607d8b"/>
+    <circle cx="6" cy="38" r="2" fill="#607d8b"/>
+    <circle cx="6" cy="10" r="2" fill="#607d8b"/>
+    <path d="M22.95 13.05L23 23l-9.95-.05L32.103 42H44c1.108 0 2-.892 2-2v-3.898z" opacity=".1"/>
+    <g transform="translate(7 39)" fill="#eceff1" fill-rule="evenodd" stroke="#eceff1" stroke-linecap="round" stroke-linejoin="round" filter="url(#a)">
+        <path d="M14-18L28-4" stroke-width="4"/>
+        <path d="M11-27c-.31.002-.618.027-.924.076L15-22l-5 5-4.922-4.922A6 6 0 0 0 5-21a6 6 0 1 0 6-6z" stroke-width="2"/>
+    </g>
+</svg>
