@@ -22,6 +22,7 @@
         <path fill="#fafafa" fill-rule="evenodd" d="M10-30h18l12 12v30c0 1.108-.892 2-2 2H10c-1.108 0-2-.892-2-2v-40c0-1.108.892-2 2-2z" filter="url(#a)"/>
         <path fill-rule="evenodd" opacity=".1" d="M30-22c-1.781 0-2.673 2.154-1.414 3.414l12 12C41.846-5.326 43.999-6.219 44-8v-12a2 2 0 0 0-2-2z" clip-path="url(#b)"/>
         <rect fill="#fafafa" fill-rule="evenodd" width="14" height="14" x="28" y="-32" clip-path="url(#c)" filter="url(#a)" rx="2" ry="2"/>
-        <path fill="none" stroke="#2196f3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18-5a3 3 0 0 1-3 3m2.986-6.014a3 3 0 0 1 3-3m-5.986 9a3 3 0 0 1 3 3M20.986 7a3 3 0 0 1-3-3M18-8v3m0 6v3m11.986-9a2.986 3 0 0 0 2.986 3M30-8.014a2.986 3 0 0 0-2.986-3m5.958 9a2.986 3 0 0 1-2.986 3M27.014 7A2.986 3 0 0 1 30 4m-.014-12v3m0 6v3"/>
+        <path d="M18-5a3 3 0 0 1-3 3m2.986-6.014a3 3 0 0 1 3-3m-5.986 9a3 3 0 0 1 3 3M20.986 7a3 3 0 0 1-3-3M18-8v3m0 6v3" fill="none" stroke="#2196f3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
+    <path d="M29.986 27c0 1.657 1.35 3 3.014 3m-3-6.014c0-1.657-1.35-3-3.014-3m6.014 9a3.007 3.007 0 0 0-3.014 3m-3 6.014A3.007 3.007 0 0 0 30 36m-.014-12v3m0 6v3" fill="none" stroke="#2196f3" stroke-width="2.005" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
