@@ -12,6 +12,6 @@
             </feMerge>
         </filter>
     </defs>
-    <circle fill="#2196f3;" cx="24" cy="24" r="22" filter="url(#a)"/>
+    <circle fill="#2196f3" cx="24" cy="24" r="22" filter="url(#a)"/>
     <path fill="#e3f2fd" fill-rule="evenodd" stroke="#e3f2fd" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M32 16l-19 7 9 3 3 9z"/>
 </svg>
