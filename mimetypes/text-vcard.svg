@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+    <defs>
+        <filter id="a">
+            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
+            <feOffset dy=".4"/>
+            <feComponentTransfer>
+                <feFuncA slope=".3" type="linear"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <clipPath id="c">
+            <path fill="none" stroke="#000" d="M26-30h2l12 12v2H26z"/>
+        </clipPath>
+        <clipPath id="b">
+            <path fill="#fff" fill-rule="evenodd" d="M10-30h18l12 12v30c0 1.108-.892 2-2 2H10c-1.108 0-2-.892-2-2v-40c0-1.108.892-2 2-2z"/>
+        </clipPath>
+    </defs>
+    <path d="M10 2h18l12 12v30c0 1.108-.892 2-2 2H10c-1.108 0-2-.892-2-2V4c0-1.108.892-2 2-2z" fill="#fafafa" fill-rule="evenodd" filter="url(#a)"/>
+    <rect width="24" height="16" x="12" y="22" rx="1" ry="1" fill="#2196f3"/>
+    <path clip-path="url(#b)" d="M30-22c-1.781 0-2.673 2.154-1.414 3.414l12 12C41.846-5.326 43.999-6.219 44-8v-12a2 2 0 0 0-2-2z" transform="translate(0 32)" opacity=".1" fill-rule="evenodd"/>
+    <rect ry="2" rx="2" clip-path="url(#c)" y="-32" x="28" height="14" width="14" transform="translate(0 32)" fill="#fafafa" fill-rule="evenodd" filter="url(#a)"/>
+    <path d="M15 35a4 4 0 0 1 4-4 4 4 0 0 1 4 4" fill="#fafafa"/>
+    <circle r="2" cy="28" cx="19" fill="#fafafa"/>
+    <path d="M26 26h6M26 30h6M28 34h4" fill="none" stroke="#fafafa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
