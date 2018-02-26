@@ -17,4 +17,6 @@
         <path fill="#81d4fa" d="M24-16c-4.395 0-8 3.605-8 8s3.605 8 8 8 8-3.605 8-8-3.605-8-8-8zm0 4c2.233 0 4 1.767 4 4s-1.767 4-4 4a3.97 3.97 0 0 1-4-4c0-2.233 1.767-4 4-4z"/>
     </g>
     <path fill="none" stroke="#e1f5fe" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 7l2 6 2-6 2 6 2-6m3 6v-3m3 3v-3m0-3"/>
+    <circle cx="28" cy="7" r="1" fill="#e1f5fe"/>
+    <circle cx="31" cy="7" r="1" fill="#e1f5fe"/>
 </svg>
