@@ -1,137 +1,21 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="48"
-   height="48"
-   version="1.1"
-   id="svg25"
-   sodipodi:docname="application-octet-stream.svg"
-   inkscape:version="0.92.2 5c3e80d, 2017-08-06">
-  <metadata
-     id="metadata29">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="3840"
-     inkscape:window-height="2024"
-     id="namedview27"
-     showgrid="false"
-     inkscape:zoom="19.666667"
-     inkscape:cx="28.451053"
-     inkscape:cy="32.372144"
-     inkscape:window-x="0"
-     inkscape:window-y="64"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg25">
-    <inkscape:grid
-       type="xygrid"
-       id="grid836" />
-  </sodipodi:namedview>
-  <defs
-     id="defs17">
-    <filter
-       id="a">
-      <feGaussianBlur
-         in="SourceAlpha"
-         stdDeviation=".8"
-         id="feGaussianBlur2" />
-      <feOffset
-         dy=".4"
-         id="feOffset4" />
-      <feComponentTransfer
-         id="feComponentTransfer8">
-        <feFuncA
-           slope=".3"
-           type="linear"
-           id="feFuncA6" />
-      </feComponentTransfer>
-      <feMerge
-         id="feMerge14">
-        <feMergeNode
-           id="feMergeNode10" />
-        <feMergeNode
-           in="SourceGraphic"
-           id="feMergeNode12" />
-      </feMerge>
-    </filter>
-  </defs>
-  <rect
-     style="fill:#607d8b;fill-rule:evenodd;filter:url(#a)"
-     id="rect19"
-     ry="2"
-     rx="2"
-     y="5"
-     x="5"
-     height="38"
-     width="38" />
-  <circle
-     style="opacity:1;fill:none;fill-opacity:1;stroke:#cfd8dc;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     id="path840-35"
-     cx="34"
-     cy="14"
-     r="3" />
-  <circle
-     style="opacity:1;fill:none;fill-opacity:1;stroke:#cfd8dc;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     id="path840-6"
-     cx="14"
-     cy="24"
-     r="3" />
-  <circle
-     style="opacity:1;fill:none;fill-opacity:1;stroke:#cfd8dc;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     id="path840-35-9"
-     cx="34"
-     cy="24"
-     r="3" />
-  <circle
-     style="opacity:1;fill:none;fill-opacity:1;stroke:#cfd8dc;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     id="path840-5-27"
-     cx="24"
-     cy="34"
-     r="3" />
-  <path
-     style="fill:none;stroke:#cfd8dc;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 13,17 h 2 -1 v -6 h -1"
-     id="path926"
-     inkscape:connector-curvature="0" />
-  <path
-     style="fill:none;stroke:#cfd8dc;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 33,37 h 2 -1 v -6 h -1"
-     id="path926-9"
-     inkscape:connector-curvature="0" />
-  <path
-     style="fill:none;stroke:#cfd8dc;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 13,37 h 2 -1 v -6 h -1"
-     id="path926-3"
-     inkscape:connector-curvature="0" />
-  <path
-     style="fill:none;stroke:#cfd8dc;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 23,27 h 2 -1 v -6 h -1"
-     id="path926-0"
-     inkscape:connector-curvature="0" />
-  <path
-     style="fill:none;stroke:#cfd8dc;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 23,17 h 2 -1 v -6 h -1"
-     id="path926-6"
-     inkscape:connector-curvature="0" />
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+    <defs>
+        <filter id="a">
+            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
+            <feOffset dy=".4"/>
+            <feComponentTransfer>
+                <feFuncA slope=".3" type="linear"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <rect ry="2" rx="2" y="5" x="5" height="38" width="38" fill="#607d8b" fill-rule="evenodd" filter="url(#a)"/>
+    <circle cx="34" cy="14" r="3" fill="none" stroke="#cfd8dc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="14" cy="24" r="3" fill="none" stroke="#cfd8dc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="34" cy="24" r="3" fill="none" stroke="#cfd8dc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="24" cy="34" r="3" fill="none" stroke="#cfd8dc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M13 17h2-1v-6h-1M33 37h2-1v-6h-1M13 37h2-1v-6h-1M23 27h2-1v-6h-1M23 17h2-1v-6h-1" fill="none" stroke="#cfd8dc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
