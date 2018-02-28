@@ -4,7 +4,7 @@ Comment=A Material Design inspired clean icon theme
 Inherits=Adwaita,gnome,hicolor
 Example=folder
 
-Directories=actions,applications,categories,devices,emblems,emotes,mimetypes,status,places
+Directories=actions,applications,categories,devices,emblems,emotes,mimetypes,status,places,status-spinner
 
 [actions]
 Context=Actions
@@ -67,6 +67,13 @@ Context=Places
 Size=48
 MinSize=16
 MaxSize=512
+Type=Scalable
+
+[status-spinner]
+Context=Status
+Size=16
+MinSize=16
+MaxSize=32
 Type=Scalable
 
 # KDE Stuff
