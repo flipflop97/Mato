@@ -17,5 +17,5 @@
     <circle cx="14" cy="24" r="3" fill="none" stroke="#cfd8dc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
     <circle cx="34" cy="24" r="3" fill="none" stroke="#cfd8dc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
     <circle cx="24" cy="34" r="3" fill="none" stroke="#cfd8dc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M13 17h2-1v-6h-1M33 37h2-1v-6h-1M13 37h2-1v-6h-1M23 27h2-1v-6h-1M23 17h2-1v-6h-1" fill="none" stroke="#cfd8dc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M13 17h2-1v-6h-1m20 26h2-1v-6h-1m-20 6h2-1v-6h-1m10-4h2-1v-6h-1m0-4h2-1v-6h-1" fill="none" stroke="#cfd8dc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
