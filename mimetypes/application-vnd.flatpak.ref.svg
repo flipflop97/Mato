@@ -13,6 +13,6 @@
         </filter>
     </defs>
     <rect ry="2" rx="2" y="5" x="5" height="38" width="38" fill="#2196f3" fill-rule="evenodd" filter="url(#a)"/>
-    <path d="M34 19v10l-10 7-10-7V19l10 8z" fill="#e3f2fd" fill-rule="evenodd" stroke="#e3f2fd" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M34 19v10l-10 7-10-7V19l10 7z" fill="#e3f2fd" fill-rule="evenodd" stroke="#e3f2fd" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
     <path d="M14 19l10-7 10 7" fill="none" stroke="#e3f2fd" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
