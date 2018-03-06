@@ -18,12 +18,10 @@
             <path fill="#fff" fill-rule="evenodd" d="M10-30h18l12 12v30c0 1.108-.892 2-2 2H10c-1.108 0-2-.892-2-2v-40c0-1.108.892-2 2-2z"/>
         </clipPath>
     </defs>
-    <g transform="translate(0 32)">
-        <path fill="#fafafa" fill-rule="evenodd" d="M10-30h18l12 12v30c0 1.108-.892 2-2 2H10c-1.108 0-2-.892-2-2v-40c0-1.108.892-2 2-2z" filter="url(#a)"/>
-        <path fill-rule="evenodd" opacity=".1" d="M30-22c-1.781 0-2.673 2.154-1.414 3.414l12 12C41.846-5.326 43.999-6.219 44-8v-12a2 2 0 0 0-2-2z" clip-path="url(#b)"/>
-        <rect fill="#fafafa" fill-rule="evenodd" width="14" height="14" x="28" y="-32" clip-path="url(#c)" filter="url(#d)" rx="2" ry="2"/>
-        <circle fill="none" stroke="#009688" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" cx="24" cy="-2" r="9"/>
-        <ellipse fill="none" stroke="#009688" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" cx="24" cy="-2" rx="5" ry="9"/>
-        <path fill="none" stroke="#009688" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M24-11V7m9-9H15m17 4H16m16-8H16"/>
-    </g>
+    <path d="M10 2h18l12 12v30c0 1.108-.892 2-2 2H10c-1.108 0-2-.892-2-2V4c0-1.108.892-2 2-2z" fill="#fafafa" fill-rule="evenodd" filter="url(#a)"/>
+    <path clip-path="url(#b)" d="M30-22c-1.781 0-2.673 2.154-1.414 3.414l12 12C41.846-5.326 43.999-6.219 44-8v-12a2 2 0 0 0-2-2z" transform="translate(0 32)" opacity=".1" fill-rule="evenodd"/>
+    <rect ry="2" rx="2" clip-path="url(#c)" y="-32" x="28" height="14" width="14" transform="translate(0 32)" fill="#fafafa" fill-rule="evenodd" filter="url(#a)"/>
+    <circle r="9" cy="30" cx="24" fill="none" stroke="#009688" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <ellipse ry="9" rx="5" cy="30" cx="24" fill="none" stroke="#009688" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M24 21v18m9-9H15m17 4H16m16-8H16" fill="none" stroke="#009688" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
