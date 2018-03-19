@@ -12,9 +12,9 @@
             </feMerge>
         </filter>
     </defs>
-    <g transform="translate(0 32)">
-        <rect fill="#2196f3" fill-rule="evenodd" width="38" height="38" x="5" y="-27" filter="url(#a)" rx="2" ry="2"/>
-        <path fill="#e3f2fd" fill-rule="evenodd" d="M21-19a1 1 0 0 0-1 1v1h-2a1 1 0 0 0-1 1v1h-5a1 1 0 0 0-1 1V1a1 1 0 0 0 1 1h24a1 1 0 0 0 1-1v-15a1 1 0 0 0-1-1h-5v-1a1 1 0 0 0-1-1h-2v-1a1 1 0 0 0-1-1z"/>
-        <path fill="none" stroke="#2196f3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 2v-4m4 4v-4m4 4v-4m4 4v-4"/>
-    </g>
+    <rect ry="2" rx="2" y="5" x="5" height="38" width="38" fill="#00bcd4" fill-rule="evenodd" filter="url(#a)"/>
+    <rect width="8" height="8" x="12" y="28" rx="1" ry="1" fill="#e0f7fa"/>
+    <rect width="8" height="8" x="28" y="28" rx="1" ry="1" fill="#e0f7fa"/>
+    <rect width="8" height="8" x="20" y="12" rx="1" ry="1" fill="#e0f7fa"/>
+    <path d="M24 19v5m8 5v-5H16v5" fill="none" stroke="#e0f7fa" stroke-width="2" stroke-linejoin="round"/>
 </svg>
