@@ -1,18 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
-    <defs>
-        <filter id="a">
-            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
-            <feOffset dy=".4"/>
-            <feComponentTransfer>
-                <feFuncA slope=".3" type="linear"/>
-            </feComponentTransfer>
-            <feMerge>
-                <feMergeNode/>
-                <feMergeNode in="SourceGraphic"/>
-            </feMerge>
-        </filter>
-    </defs>
-    <rect ry="2" rx="2" y="5" x="5" height="38" width="38" fill="#2196f3" fill-rule="evenodd" filter="url(#a)"/>
-    <path d="M7 5c-1.108 0-2 .892-2 2v17c1.776 8.37 10.223 15.46 19 12.666 4.907-1.562 9.577-7.571 6.334-12.666C29.137 22.12 24 20.19 24 24c3.81 0 1.88 5.137 0 6.334-5.095 3.243-11.104-1.427-12.666-6.334C8.54 15.223 15.63 6.776 24 5z" fill="#ff9800"/>
-    <path d="M41 43c1.108 0 2-.892 2-2V24c-1.776-8.37-10.223-15.46-19-12.666-4.907 1.562-9.577 7.571-6.334 12.666C18.863 25.88 24 27.81 24 24c-3.81 0-1.88-5.137 0-6.334 5.095-3.243 11.104 1.427 12.666 6.334C39.46 32.777 32.37 41.224 24 43z" fill="#ff9800"/>
-</svg>
+org.gnome.meld.svg
