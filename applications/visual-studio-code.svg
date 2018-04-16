@@ -1,18 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
-    <defs>
-        <filter id="a">
-            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
-            <feOffset dy=".4"/>
-            <feComponentTransfer>
-                <feFuncA slope=".3" type="linear"/>
-            </feComponentTransfer>
-            <feMerge>
-                <feMergeNode/>
-                <feMergeNode in="SourceGraphic"/>
-            </feMerge>
-        </filter>
-    </defs>
-    <rect ry="2" rx="2" y="5" x="5" height="38" width="38" fill="#212121" filter="url(#a)"/>
-    <path d="M11 32l22 3V10l4 2v24l-4 2z" fill="#2196f3" stroke="#2196f3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M26 14l2 1v12l-2 1-14-11 14 9V16l-14 9z" fill="#2196f3" stroke="#2196f3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
+com.visualstudio.code.svg
