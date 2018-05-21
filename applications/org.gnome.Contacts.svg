@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+    <defs>
+        <filter id="a">
+            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
+            <feOffset dy=".4"/>
+            <feComponentTransfer>
+                <feFuncA slope=".3" type="linear"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <clipPath id="c">
+            <path fill="#2196f3" fill-rule="evenodd" d="M10 2c-1.108 0-2 .892-2 2v2c-1.108 0-2 .892-2 2s.892 2 2 2v12c-1.108 0-2 .892-2 2s.892 2 2 2v12c-1.108 0-2 .892-2 2s.892 2 2 2v2c0 1.108.892 2 2 2h28c1.108 0 2-.892 2-2V4c0-1.108-.892-2-2-2z"/>
+        </clipPath>
+        <clipPath id="b">
+            <path fill="#2196f3" fill-rule="evenodd" d="M10 2c-1.108 0-2 .892-2 2v2c-1.108 0-2 .892-2 2s.892 2 2 2v12c-1.108 0-2 .892-2 2s.892 2 2 2v12c-1.108 0-2 .892-2 2s.892 2 2 2v2c0 1.108.892 2 2 2h28c1.108 0 2-.892 2-2V4c0-1.108-.892-2-2-2z"/>
+        </clipPath>
+    </defs>
+    <g transform="translate(0 32)">
+        <path fill="#2196f3" fill-rule="evenodd" d="M10-30c-1.108 0-2 .892-2 2v2c-1.108 0-2 .892-2 2s.892 2 2 2V6c-1.108 0-2 .892-2 2s.892 2 2 2v2c0 1.108.892 2 2 2h28c1.108 0 2-.892 2-2v-40c0-1.108-.892-2-2-2z" filter="url(#a)"/>
+        <rect fill="#2196f3" fill-rule="evenodd" width="32" height="44" x="8" y="-30" rx="2" ry="2"/>
+        <circle fill="none" stroke="#e3f2fd" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" cx="24" cy="-8" r="4"/>
+        <path fill="none" stroke="#e3f2fd" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M24 0a8 8 0 0 1-7.391-4.939 8 8 0 0 1 1.734-8.718 8 8 0 0 1 8.718-1.734A8 8 0 0 1 32-8"/>
+        <path fill="none" stroke="#e3f2fd" stroke-linecap="square" stroke-linejoin="round" stroke-width="2" d="M32-6a2 2 0 0 1-1 1.732 2 2 0 0 1-2 0A2 2 0 0 1 28-6"/>
+        <path fill="none" stroke="#e3f2fd" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M32 0h-8"/>
+        <path fill="none" stroke="#e3f2fd" stroke-width="2" d="M32-8v2m-4-2v2"/>
+        <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" opacity=".1" d="M8 8l34 34v-4L12 8zm0 32l34 34v-4L12 40z" clip-path="url(#b)" transform="translate(0 -32)"/>
+        <path fill="#cfd8dc" d="M8 6c-1.108 0-2 .892-2 2s.892 2 2 2h4c1.108 0 2-.892 2-2s-.892-2-2-2zm0 32c-1.108 0-2 .892-2 2s.892 2 2 2h4c1.108 0 2-.892 2-2s-.892-2-2-2z" clip-path="url(#c)" filter="url(#a)" transform="translate(0 -32)"/>
+    </g>
+</svg>
