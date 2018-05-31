@@ -4,77 +4,134 @@ Comment=A Material Design inspired clean icon theme
 Inherits=Adwaita,gnome,hicolor
 Example=folder
 
-Directories=actions,applications,categories,devices,emblems,emotes,mimetypes,status,places,status-spinner
+Directories=full/actions,symbolic/actions,full/applications,symbolic/applications,full/categories,symbolic/categories,full/devices,symbolic/devices,full/emblems,symbolic/emblems,full/emotes,symbolic/emotes,full/mimetypes,symbolic/mimetypes,full/places,symbolic/places,full/status,symbolic/status
 
-[actions]
+[full/actions]
 Context=Actions
 Size=48
 MinSize=16
 MaxSize=512
 Type=Scalable
 
-[applications]
+[symbolic/actions]
+Context=Actions
+Size=16
+MinSize=16
+MaxSize=512
+Type=Scalable
+
+[full/applications]
 Context=Applications
 Size=48
 MinSize=16
 MaxSize=512
 Type=Scalable
 
-[categories]
+[symbolic/applications]
+Context=Applications
+Size=16
+MinSize=16
+MaxSize=512
+Type=Scalable
+
+[full/categories]
 Context=Categories
 Size=48
 MinSize=16
 MaxSize=512
 Type=Scalable
 
-[devices]
+[symbolic/categories]
+Context=Categories
+Size=16
+MinSize=16
+MaxSize=512
+Type=Scalable
+
+[full/devices]
 Context=Devices
 Size=48
 MinSize=16
 MaxSize=512
 Type=Scalable
 
-[emblems]
+[symbolic/devices]
+Context=Devices
+Size=16
+MinSize=16
+MaxSize=512
+Type=Scalable
+
+[full/emblems]
 Context=Emblems
 Size=48
 MinSize=16
 MaxSize=512
 Type=Scalable
 
-[emotes]
+[symbolic/emblems]
+Context=Emblems
+Size=16
+MinSize=16
+MaxSize=512
+Type=Scalable
+
+[full/emotes]
 Context=Emotes
 Size=48
 MinSize=16
 MaxSize=512
 Type=Scalable
 
-[mimetypes]
+[symbolic/emotes]
+Context=Emotes
+Size=16
+MinSize=16
+MaxSize=512
+Type=Scalable
+
+[full/mimetypes]
 Context=Mimetypes
 Size=48
 MinSize=16
 MaxSize=512
 Type=Scalable
 
-[status]
+[symbolic/mimetypes]
+Context=Mimetypes
+Size=16
+MinSize=16
+MaxSize=512
+Type=Scalable
+
+[full/status]
 Context=Status
 Size=48
 MinSize=16
 MaxSize=512
 Type=Scalable
 
-[places]
+[symbolic/status]
+Context=Status
+Size=16
+MinSize=16
+MaxSize=512
+Type=Scalable
+
+[full/places]
 Context=Places
 Size=48
 MinSize=16
 MaxSize=512
 Type=Scalable
 
-[status-spinner]
-Context=Status
+[symbolic/places]
+Context=Places
 Size=16
 MinSize=16
-MaxSize=32
+MaxSize=512
 Type=Scalable
+
 
 # KDE Stuff
 DisplayDepth=32
