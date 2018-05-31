@@ -14,7 +14,7 @@
     </defs>
     <path d="M23.97 2a2 2 0 0 0-1.384.586l-20 20a2 2 0 0 0 0 2.828l20 20a2 2 0 0 0 2.828 0l20-20a2 2 0 0 0 0-2.828l-20-20A2 2 0 0 0 23.971 2z" fill="#4caf50" fill-rule="evenodd" filter="url(#a)"/>
     <path d="M16 16v16l16-16" fill="none" stroke="#e8f5e9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M24 30v3M27 30v3M30 32v1" fill="none" stroke="#e8f5e9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M27 31.5a1.5 1.5 0 0 1 1.5-1.5 1.5 1.5 0 0 1 1.5 1.5M30 31.5a1.5 1.5 0 0 1 1.5-1.5 1.5 1.5 0 0 1 1.5 1.5" fill="#4caf50" stroke="#e8f5e9" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
+    <path d="M24 30v3m3-3v3m3-1v1" fill="none" stroke="#e8f5e9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M27 31.5a1.5 1.5 0 0 1 1.5-1.5 1.5 1.5 0 0 1 1.5 1.5m0 0a1.5 1.5 0 0 1 1.5-1.5 1.5 1.5 0 0 1 1.5 1.5" fill="#4caf50" stroke="#e8f5e9" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
     <path d="M33 32v1" fill="none" stroke="#e8f5e9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
