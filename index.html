@@ -159,7 +159,7 @@
         </style>
         <script>
             function getIcons(group) {
-                var url = 'https://api.github.com/repos/flipflop97/Mato/contents/' + group;
+                var url = 'https://api.github.com/repos/flipflop97/Mato/contents/full/' + group;
                 var container = document.getElementById('icons-' + group);
 
                 var xmlHttp = new XMLHttpRequest();
@@ -170,7 +170,7 @@
 
                             contents.forEach(function(iconData, index) {
                                 var file = iconData['name'];
-                                var src = group + '/' + file;
+                                var src = 'full/' + group + '/' + file;
                                 var name = file.substring(0, file.length - 4);
                                 var symbolic = name.endsWith('-symbolic') || name.endsWith('-symbolic-rtl');
 
@@ -218,7 +218,7 @@
 
                 hash = location.hash.substr(1);
                 icon = hash.split('/');
-                big.style = 'background-image: url("' + hash + '.svg");';
+                big.style = 'background-image: url("full/' + hash + '.svg");';
 
                 big.classList.remove('hidden');
             }
