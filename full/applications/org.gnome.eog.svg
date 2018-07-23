@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+    <defs>
+        <filter id="a">
+            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
+            <feOffset dy=".4"/>
+            <feComponentTransfer>
+                <feFuncA slope=".3" type="linear"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <clipPath id="b">
+            <rect fill="#8bc34a" fill-rule="evenodd" width="44" height="32" x="2" y="8" rx="2" ry="2"/>
+        </clipPath>
+    </defs>
+    <g transform="translate(0 32)">
+        <rect fill="#8bc34a" fill-rule="evenodd" width="44" height="32" x="2" y="-24" filter="url(#a)" rx="2" ry="2"/>
+        <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8" opacity=".1" d="M24 17l23 23-23-23zm-6.063 3.5l23.125 23-23.124-23zm12.125 0l18.875 19-18.874-19zm-12.125 7l16.125 16-16.124-16z" clip-path="url(#b)" transform="translate(0 -32)"/>
+        <g fill-rule="evenodd" filter="url(#a)">
+            <circle fill="#fff" cx="24" cy="-15" r="4"/>
+            <circle fill="#fff" cx="5.072" cy="-17.785" r="4" transform="rotate(60)"/>
+            <circle fill="#fff" cx="18.928" cy="23.785" r="4" transform="rotate(-60)"/>
+            <circle fill="#fff" cx="24" cy="-1" r="4"/>
+            <circle fill="#fff" cx="5.072" cy="-31.785" r="4" transform="rotate(60)"/>
+            <circle fill="#fff" cx="18.928" cy="9.785" r="4" transform="rotate(-60)"/>
+            <circle fill="#ffc107" cx="24" cy="-8" r="6"/>
+        </g>
+    </g>
+</svg>
