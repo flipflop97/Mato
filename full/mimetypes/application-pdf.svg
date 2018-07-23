@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+    <defs>
+        <filter id="a">
+            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
+            <feOffset dy=".4"/>
+            <feComponentTransfer>
+                <feFuncA slope=".3" type="linear"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <clipPath id="c">
+            <path fill="none" stroke="#000" d="M26-30h2l12 12v2H26z"/>
+        </clipPath>
+        <clipPath id="b">
+            <path fill="#fff" fill-rule="evenodd" d="M10-30h18l12 12v30c0 1.108-.892 2-2 2H10c-1.108 0-2-.892-2-2v-40c0-1.108.892-2 2-2z"/>
+        </clipPath>
+    </defs>
+    <g transform="translate(0 32)" fill-rule="evenodd">
+        <path fill="#fafafa" d="M10-30h18l12 12v30c0 1.108-.892 2-2 2H10c-1.108 0-2-.892-2-2v-40c0-1.108.892-2 2-2z" filter="url(#a)"/>
+        <path opacity=".1" d="M30-22c-1.781 0-2.673 2.154-1.414 3.414l12 12C41.846-5.326 43.999-6.219 44-8v-12a2 2 0 0 0-2-2z" clip-path="url(#b)"/>
+        <rect fill="#fafafa" width="14" height="14" x="28" y="-32" clip-path="url(#c)" filter="url(#a)" rx="2" ry="2"/>
+    </g>
+    <path style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;shape-padding:0;isolation:auto;mix-blend-mode:normal" d="M24 20.004c-.687 0-1.373.231-1.928.697a3.011 3.011 0 0 0-.672 3.795v.002l.002.002a1 1 0 0 0 .002.004l1.444 2.525L18.865 34H16a3.01 3.01 0 0 0-2.955 2.479 3.011 3.011 0 0 0 1.93 3.34 3.009 3.009 0 0 0 3.623-1.319 1 1 0 0 0 .002-.004L20.025 36h7.95l1.425 2.496a1 1 0 0 0 .002.004 3.009 3.009 0 0 0 3.623 1.318 3.011 3.011 0 0 0 1.93-3.34A3.01 3.01 0 0 0 32 34h-2.865l-3.985-6.969 1.426-2.496a1 1 0 0 0 .018-.027l.004-.008c0-.001 0-.003.002-.004a3.011 3.011 0 0 0-.672-3.795A2.992 2.992 0 0 0 24 20.004zm0 1.994c.227 0 .454.078.643.236.376.317.468.84.222 1.266a1 1 0 0 0-.002.004L24 25.016l-.846-1.479a1 1 0 0 0-.015-.031l-.002-.002a1 1 0 0 0-.002-.004.989.989 0 0 1 .222-1.266.996.996 0 0 1 .643-.236zm0 7.047L26.832 34h-5.664L24 29.045zM16 36h1.723l-.836 1.465-.018.027a1 1 0 0 0-.004.008l-.002.004a.989.989 0 0 1-1.205.435.99.99 0 0 1-.642-1.113A.99.99 0 0 1 16 36zm14.277 0H32a.99.99 0 0 1 .984.826.99.99 0 0 1-.642 1.113.989.989 0 0 1-1.205-.435l-.002-.004a1 1 0 0 0-.002-.004L30.277 36z" color="#000" font-weight="400" font-family="sans-serif" white-space="normal" overflow="visible" fill="#f44336" enable-background="accumulate"/>
+</svg>
