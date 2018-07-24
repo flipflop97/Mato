@@ -12,6 +12,9 @@
             </feMerge>
         </filter>
     </defs>
-    <circle fill="#2196f3" cx="24" cy="24" r="22" filter="url(#a)"/>
-    <path fill="#e3f2fd" fill-rule="evenodd" stroke="#e3f2fd" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M32 16l-19 7 9 3 3 9z"/>
+    <g transform="translate(0 32)">
+        <circle fill="#2196f3" fill-rule="evenodd" cx="24" cy="-8" r="22" filter="url(#a)"/>
+        <path opacity=".1" d="M31.97-18a2 2 0 0 0-.661.123l-19 7a2 2 0 0 0-.723 3.291L31.75 12.578A22 22 0 0 0 45.777-5.05L33.414-17.414A2 2 0 0 0 31.971-18z"/>
+        <path fill="#fafafa" fill-rule="evenodd" d="M32.047-18a2 2 0 0 0-.738.123l-19 7c-1.773.654-1.734 3.175.058 3.773l8.051 2.686 2.686 8.05c.598 1.793 3.119 1.832 3.773.06l7-19A2 2 0 0 0 32.047-18z" filter="url(#a)"/>
+    </g>
 </svg>
