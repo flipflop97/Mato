@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+    <defs>
+        <filter id="a">
+            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
+            <feOffset dy=".4"/>
+            <feComponentTransfer>
+                <feFuncA slope=".3" type="linear"/>
+                <feFuncR type="identity"/>
+                <feFuncG type="identity"/>
+                <feFuncB type="identity"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <circle fill="#fafafa" fill-rule="evenodd" cx="24" cy="-8" r="22" filter="url(#a)" transform="translate(0 32)"/>
+    <path d="M46 24a22 22 0 0 1-13.581 20.325 22 22 0 0 1-23.975-4.769L24 24z" fill="#ffc107"/>
+    <path d="M8.444 39.556a22 22 0 0 1-4.77-23.975A22 22 0 0 1 24 2v22z" fill="#4caf50"/>
+    <path d="M24 2a22 22 0 0 1 22 22H24z" fill="#2196f3"/>
+</svg>
