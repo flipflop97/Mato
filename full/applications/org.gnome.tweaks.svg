@@ -16,13 +16,14 @@
         </clipPath>
     </defs>
     <g transform="translate(0 32)">
-        <rect fill="#90a4ae" fill-rule="evenodd" width="38" height="38" x="5" y="-27" filter="url(#a)" rx="2" ry="2"/>
-        <path fill="none" stroke="#607d8b" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M12-8h24M12-18h24M12 2h24"/>
-        <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8" opacity=".1" d="M30 14l28 28-28-28zM18 24l28 28-28-28zm6 10l28 28-28-28z" clip-path="url(#b)" transform="translate(0 -32)"/>
-        <g filter="url(#a)" fill="#eceff1" fill-rule="evenodd">
-            <circle cx="30" cy="-18" r="4"/>
-            <circle cx="18" cy="-8" r="4"/>
-            <circle cx="24" cy="2" r="4"/>
+        <rect ry="2" rx="2" filter="url(#a)" y="-27" x="5" height="38" width="38" fill-rule="evenodd" fill="#eee"/>
+        <path d="M12-8h6m-6-10h18M12 2h12" fill="none" stroke="#03a9f4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M18-8h18m-6-10h6M24 2h12" fill="none" stroke="#bdbdbd" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        <path transform="translate(0 -32)" clip-path="url(#b)" d="M30 14l28 28-28-28zM18 24l28 28-28-28zm6 10l28 28-28-28z" opacity=".1" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" stroke="#000" fill="none"/>
+        <g fill-rule="evenodd" fill="#fff" filter="url(#a)">
+            <circle r="4" cy="-18" cx="30"/>
+            <circle r="4" cy="-8" cx="18"/>
+            <circle r="4" cy="2" cx="24"/>
         </g>
     </g>
 </svg>
