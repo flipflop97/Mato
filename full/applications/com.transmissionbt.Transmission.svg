@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+    <defs>
+        <filter id="a">
+            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
+            <feOffset dy=".4"/>
+            <feComponentTransfer>
+                <feFuncA slope=".3" type="linear"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <clipPath id="b">
+            <rect fill="#cfd8dc" fill-rule="evenodd" width="38" height="38" x="5" y="-27" rx="2" ry="2"/>
+        </clipPath>
+    </defs>
+    <g fill-rule="evenodd" transform="translate(0 32)">
+        <rect fill="#cfd8dc" width="38" height="38" x="5" y="-27" filter="url(#a)" rx="2" ry="2"/>
+        <path fill="#90a4ae" stroke="#90a4ae" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M24 5l-5-5h5v-16h-5l5-5 5 5h-5V0h5z"/>
+        <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" opacity=".1" d="M14-7v-2h20L44 1v12H34z" clip-path="url(#b)"/>
+        <rect fill="#f44336" width="24" height="6" x="12" y="-11" filter="url(#a)" rx="2" ry="2"/>
+    </g>
+</svg>
