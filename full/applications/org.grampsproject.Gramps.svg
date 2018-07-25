@@ -11,33 +11,11 @@
                 <feMergeNode in="SourceGraphic"/>
             </feMerge>
         </filter>
-        <filter id="b">
-            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
-            <feOffset dy=".4"/>
-            <feComponentTransfer>
-                <feFuncA slope=".3" type="linear"/>
-            </feComponentTransfer>
-            <feMerge>
-                <feMergeNode/>
-                <feMergeNode in="SourceGraphic"/>
-            </feMerge>
-        </filter>
-        <filter id="c">
-            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
-            <feOffset dy=".4"/>
-            <feComponentTransfer>
-                <feFuncA slope=".3" type="linear"/>
-            </feComponentTransfer>
-            <feMerge>
-                <feMergeNode/>
-                <feMergeNode in="SourceGraphic"/>
-            </feMerge>
-        </filter>
     </defs>
-    <rect ry="2" rx="2" y="5" x="5" height="38" width="38" fill="#795548" fill-rule="evenodd" filter="url(#a)"/>
+    <rect ry="2" rx="2" y="5" x="5" height="38" width="38" fill="#8D6E63" fill-rule="evenodd" filter="url(#a)"/>
     <path style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;shape-padding:0;isolation:auto;mix-blend-mode:normal" d="M24 16a1 1 0 0 0-1 1v6h-3a1 1 0 1 0 0 2h3v6a1 1 0 0 0 1 1h4a1 1 0 1 0 0-2h-3V18h3a1 1 0 1 0 0-2h-4z" color="#000" font-weight="400" font-family="sans-serif" white-space="normal" overflow="visible" fill="#3e2723" enable-background="accumulate"/>
     <path style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;shape-padding:0;isolation:auto;mix-blend-mode:normal" d="M35.984 13a1 1 0 0 0-.584.2l-8 6a1 1 0 0 0-.107 1.507l7.184 7.184-3.526 2.646-10.244-10.244a1 1 0 0 0-1.307-.094l-8 6a1 1 0 0 0-.107 1.508L26.586 43H41c1.108 0 2-.892 2-2V19.586l-6.293-6.293a1 1 0 0 0-.723-.293z" color="#000" font-weight="400" font-family="sans-serif" white-space="normal" overflow="visible" opacity=".1" enable-background="accumulate"/>
     <rect width="10" height="8" x="27" y="13" rx="1" ry="1" fill="#fff" filter="url(#a)"/>
-    <rect width="10" height="8" x="27" y="27" rx="1" ry="1" fill="#fff" filter="url(#b)"/>
-    <rect width="10" height="8" x="11" y="20" rx="1" ry="1" fill="#fff" filter="url(#c)"/>
+    <rect width="10" height="8" x="27" y="27" rx="1" ry="1" fill="#fff" filter="url(#a)"/>
+    <rect width="10" height="8" x="11" y="20" rx="1" ry="1" fill="#fff" filter="url(#a)"/>
 </svg>
