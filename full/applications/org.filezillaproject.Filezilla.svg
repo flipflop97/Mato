@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+    <defs>
+        <filter id="a">
+            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
+            <feOffset dy=".4"/>
+            <feComponentTransfer>
+                <feFuncA slope=".3" type="linear"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <rect fill="#f44336" fill-rule="evenodd" width="38" height="38" x="5" y="-27" filter="url(#a)" rx="2" ry="2" transform="translate(0 32)"/>
+    <path style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;shape-padding:0;isolation:auto;mix-blend-mode:normal" d="M15 12a2 2 0 0 0-2 2v18c0 2.667 4 2.667 4 0v-8h11.453l-7.928 8.648C19.348 33.931 20.259 36.001 22 36h11c2.667 0 2.667-4 0-4h-6.453l7.928-8.648c1.177-1.283.266-3.353-1.475-3.352H17v-4h9c2.667 0 2.667-4 0-4z" font-weight="400" overflow="visible" color="#000" font-family="sans-serif" white-space="normal" fill="#fff" enable-background="accumulate"/>
+</svg>
