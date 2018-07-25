@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+    <defs>
+        <clipPath id="b">
+            <rect fill="#cfd8dc" fill-rule="evenodd" width="32" height="44" x="8" y="-30" rx="2" ry="2"/>
+        </clipPath>
+        <clipPath id="c">
+            <rect fill="#607d8b" width="16" height="14" x="8" rx="0" ry="0"/>
+        </clipPath>
+        <filter id="a">
+            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
+            <feOffset dy=".4"/>
+            <feComponentTransfer>
+                <feFuncA slope=".3" type="linear"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g filter="url(#a)" transform="translate(0 32)">
+        <rect fill="#90a4ae" fill-rule="evenodd" width="32" height="44" x="8" y="-30" rx="2" ry="2"/>
+        <rect fill="#eceff1" width="36" height="18" x="6" y="-32" clip-path="url(#b)" rx="0" ry="0"/>
+        <path fill="#78909c" d="M24-14h16V0H24z"/>
+        <rect fill="#78909c" fill-rule="evenodd" width="32" height="44" x="8" y="-30" clip-path="url(#c)" rx="2" ry="2"/>
+    </g>
+    <path fill="none" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 6h4v4h-4 4v4h-4m12-8v8m4-8v4h4V6v8"/>
+    <path fill="none" stroke="#eceff1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M35 41h-6m6-4h-6m6-15l-6 6m6 0l-6-6m-10 3h-6m3 11v6m3-3h-6"/>
+    <circle cx="24" cy="14" r="1" fill="#263238"/>
+</svg>
