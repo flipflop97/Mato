@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+    <defs>
+        <filter id="a">
+            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
+            <feOffset dy=".4"/>
+            <feComponentTransfer>
+                <feFuncA slope=".3" type="linear"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <rect ry="2" rx="2" y="5" x="5" height="38" width="38" fill="#607d8b" fill-rule="evenodd" filter="url(#a)"/>
+    <path style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;shape-padding:0;isolation:auto;mix-blend-mode:normal" d="M20 11c-1.645 0-3 1.355-3 3v3h-3a1 1 0 0 0-.217.021C12.24 17.136 11 18.43 11 20v8a3.001 3.001 0 0 0 3 3h3v3a3.001 3.001 0 0 0 3 3h8c1.645 0 3-1.355 3-3v-3h3a1 1 0 0 0 .217-.021C35.76 30.864 37 29.57 37 28v-8c0-1.645-1.355-3-3-3h-3v-3a3.001 3.001 0 0 0-3-3h-8zm0 2h8a.999.999 0 0 1 1 1v8c0 .564-.436 1-1 1h-8c-1.645 0-3 1.355-3 3v3h-3a.999.999 0 0 1-1-1v-8c0-.564.436-1 1-1h10a1 1 0 1 0 0-2h-5v-3c0-.564.436-1 1-1zm1 1a1 1 0 0 0-1 1 1 1 0 0 0 1 1 1 1 0 0 0 1-1 1 1 0 0 0-1-1zm10 5h3c.564 0 1 .436 1 1v8c0 .564-.436 1-1 1H24a1 1 0 1 0 0 2h5v3c0 .564-.436 1-1 1h-8a.999.999 0 0 1-1-1v-8c0-.564.436-1 1-1h8c1.645 0 3-1.355 3-3v-3zm-4 13a1 1 0 0 0-1 1 1 1 0 0 0 1 1 1 1 0 0 0 1-1 1 1 0 0 0-1-1z" color="#000" font-weight="400" font-family="sans-serif" white-space="normal" overflow="visible" fill="#cfd8dc" enable-background="accumulate"/>
+</svg>
