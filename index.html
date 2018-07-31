@@ -163,7 +163,7 @@
         </style>
         <script>
             function getIcons(group) {
-                var url = 'https://api.github.com/repos/flipflop97/Mato/contents/full/' + group;
+                var url = 'https://api.github.com/repos/flipflop97/Mato/contents/src/static/full/' + group;
                 var container = document.getElementById('icons-' + group);
 
                 var xmlHttp = new XMLHttpRequest();
@@ -174,7 +174,7 @@
 
                             contents.forEach(function(iconData, index) {
                                 var file = iconData['name'];
-                                var src = 'full/' + group + '/' + file;
+                                var src = 'src/static/full/' + group + '/' + file;
                                 var name = file.substring(0, file.length - 4);
                                 var symbolic = name.endsWith('-symbolic') || name.endsWith('-symbolic-rtl');
 
@@ -222,7 +222,7 @@
 
                 hash = location.hash.substr(1);
                 icon = hash.split('/');
-                big.style = 'background-image: url("full/' + hash + '.svg");';
+                big.style = 'background-image: url("src/static/full/' + hash + '.svg");';
 
                 big.classList.remove('hidden');
             }
@@ -242,7 +242,7 @@
         </script>
     </head>
     <body>
-        <div class="fab" onclick="document.body.classList.toggle('dark');"><img src="symbolic/status/display-brightness-symbolic.svg" alt="Toggle between light and dark theme"></div>
+        <div class="fab" onclick="document.body.classList.toggle('dark');"><img src="src/static/symbolic/status/display-brightness-symbolic.svg" alt="Toggle between light and dark theme"></div>
         <a class="big hidden" id="big" href="#main"></a>
         <div class="content">
             <div class="block">
@@ -252,20 +252,22 @@
                 <p>
                     Mato is a modern-looking icon pack for Linux. Inspired by Googles Material Design guidelines, these icons are made to look simple and colorful with subtle use of shadows. The icons are based on their original icons so they stay recognizable while gaining this new look.
                 </p><p>
-                    All currently available icons are displayed below. If you'd like to submit icon requests or bug reports, head over to the <a href="https://github.com/flipflop97/Mato/issues">GitHub issue tracker</a>.
+                    All currently available icons are displayed on the bottom of this page. If you'd like to submit icon requests or bug reports, head over to the <a href="https://github.com/flipflop97/Mato/issues">GitHub issue tracker</a>.
                 </p>
             </div><div class="small block">
                 <div class="icons-title">Installation</div>
-                <p>
-                    Arch Linux users can install Mato using the AUR package <a href="https://aur.archlinux.org/packages/mato-icons/">mato-icons</a>.
+                <p>For easy installation, packages are available for certain distributions. These distributions include 
+                    <a href="https://aur.archlinux.org/packages/mato-icons/">Arch Linux</a>,
+                    <a href="https://software.opensuse.org/download/package?project=home%3Aflipflop97%3Amato-icons&package=mato-icons">CentOS</a>,
+                    <a href="https://software.opensuse.org/download/package?project=home%3Aflipflop97%3Amato-icons&package=mato-icons">Fedora</a>,
+                    <a href="https://software.opensuse.org/download/package?project=home%3Aflipflop97%3Amato-icons&package=mato-icons">openSUSE</a>,
+                    <a href="https://software.opensuse.org/download/package?project=home%3Aflipflop97%3Amato-icons&package=mato-icons">RHEL</a>,
+                    <a href="https://software.opensuse.org/download/package?project=home%3Aflipflop97%3Amato-icons&package=mato-icons">Scientific Linux</a> and
+                    <a href="https://software.opensuse.org/download/package?project=home%3Aflipflop97%3Amato-icons&package=mato-icons">SLE</a>.
                 </p><p>
-                    <i>Ubuntu and Debian builds are currently still under development.</i>
+                    You can also download Mato manually from <a href="https://github.com/flipflop97/Mato/releases">the releases page</a>. To build and install Mato, extract the package, open a terminal in the extracted folder and run the following command.
                 </p><p>
-                    Packages for Fedora, openSUSE, CentOS and some other distributions are available <a href="https://software.opensuse.org/download/package?project=home%3Aflipflop97%3Amato-icons&package=mato-icons">here</a>.
-                </p><p>
-                    If your current distribution isn't supported, you can download and install it manually from <a href="https://github.com/flipflop97/Mato/releases">the releases page</a> or by installing the development version using the command below.
-                </p><p>
-                    <code>sh -c 'mkdir -p ~/.icons && rm -rf ~/.icons/Mato/ && git clone https://github.com/flipflop97/Mato.git ~/.icons/Mato/'</code>
+                    <code>make build install</code>
                 </p>
             </div><div class="block hidden" id="icons-applications">
                 <div class="icons-title">Applications</div>
