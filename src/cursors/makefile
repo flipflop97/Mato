@@ -1,4 +1,4 @@
-BUILD_FILES = left_ptr hand2
+BUILD_FILES = left_ptr hand2 xterm
 LOCAL_DIR = cursors/
 
 .PHONY: all prepare build symlink $(BUILD_FILES)
@@ -15,6 +15,7 @@ symlink:
 	ln -sf left_ptr $(BUILD_DIR)$(LOCAL_DIR)default
 	ln -sf hand2    $(BUILD_DIR)$(LOCAL_DIR)hand
 	ln -sf hand     $(BUILD_DIR)$(LOCAL_DIR)pointer
+	ln -sf xterm    $(BUILD_DIR)$(LOCAL_DIR)text
 
 $(BUILD_FILES):
 	rsvg-convert -w 24 -o $(TEMP_DIR)$(LOCAL_DIR)$@_24.png $@.svg
