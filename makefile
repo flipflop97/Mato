@@ -1,8 +1,10 @@
 BUILD_DIR ?= $(CURDIR)/build/
 export BUILD_DIR
-INSTALL_DIR ?= ~/.icons/Mato/
+INSTALL_DIR ?= ~/.icons/
+INSTALL_DIR := $(INSTALL_DIR)/Mato/
 export INSTALL_DIR
-TEMP_DIR ?= /tmp/Mato/
+TEMP_DIR ?= /tmp/
+TEMP_DIR := $(TEMP_DIR)/Mato/
 export TEMP_DIR
 
 .PHONY: all build install
