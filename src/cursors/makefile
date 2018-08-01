@@ -1,21 +1,15 @@
-BUILD_FILES = left_ptr hand2 xterm
+BUILD_FILES = hand2 sb_h_double_arrow sb_v_double_arrow left_ptr xterm
 LOCAL_DIR = cursors/
 
-.PHONY: all prepare build symlink $(BUILD_FILES)
+.PHONY: all prepare build $(BUILD_FILES)
 
-all: prepare build symlink
+all: prepare build
 
 prepare:
 	mkdir -p $(TEMP_DIR)$(LOCAL_DIR)
 	mkdir -p $(BUILD_DIR)$(LOCAL_DIR)
 
 build: $(BUILD_FILES)
-	
-symlink:
-	ln -sf left_ptr $(BUILD_DIR)$(LOCAL_DIR)default
-	ln -sf hand2    $(BUILD_DIR)$(LOCAL_DIR)hand
-	ln -sf hand     $(BUILD_DIR)$(LOCAL_DIR)pointer
-	ln -sf xterm    $(BUILD_DIR)$(LOCAL_DIR)text
 
 $(BUILD_FILES):
 	rsvg-convert -w 24 -o $(TEMP_DIR)$(LOCAL_DIR)$@_24.png $@.svg
