@@ -1,4 +1,4 @@
-BUILD_FILES = hand2 sb_h_double_arrow sb_v_double_arrow left_ptr xterm
+BUILD_FILES = hand2 sb_h_double_arrow sb_v_double_arrow left_ptr left_ptr_watch xterm
 LOCAL_DIR = cursors/
 
 .PHONY: all prepare build $(BUILD_FILES)
