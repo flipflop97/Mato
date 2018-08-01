@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+    <defs>
+        <filter id="a">
+            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
+            <feOffset dy=".4"/>
+            <feComponentTransfer>
+                <feFuncA slope=".3" type="linear"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <path d="M3 2c-.554 0-1 .446-1 1v9a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2H3z" fill="#212121" filter="url(#a)"/>
+    <path d="M4 4v8a8 8 0 0 0 8 8 8 8 0 0 0 8-8 8 8 0 0 0-8-8H4z" fill="#fff"/>
+    <path style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;shape-padding:0;isolation:auto;mix-blend-mode:normal" d="M8.5 7.486a1 1 0 0 0-1 1v4a1 1 0 1 0 2 0v-3h3a1 1 0 1 0 0-2h-4zm7 3a1 1 0 0 0-.986 1.014v3h-3a1 1 0 1 0 0 2h4a1 1 0 0 0 1-1v-4a1 1 0 0 0-1.014-1.014z" color="#000" font-weight="400" font-family="sans-serif" white-space="normal" overflow="visible" fill="#212121" enable-background="accumulate"/>
+</svg>
