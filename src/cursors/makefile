@@ -1,4 +1,4 @@
-BUILD_FILES = hand1 hand2 left_ptr left_ptr_watch top_left_corner sb_h_double_arrow sb_v_double_arrow top_right_corner xterm
+BUILD_FILES = all-scroll dnd-copy dnd-move hand1 hand2 left_ptr left_ptr_watch top_left_corner sb_h_double_arrow sb_v_double_arrow top_right_corner xterm
 LOCAL_DIR = cursors/
 
 .PHONY: all prepare build $(BUILD_FILES)
