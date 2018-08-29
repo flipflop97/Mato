@@ -15,11 +15,9 @@
             </feMerge>
         </filter>
     </defs>
-    <g transform="translate(0 32)">
-        <path fill="#795548" fill-rule="evenodd" stroke="#795548" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M4-22V6h40v-28H28l-4 4-4-4H4z" filter="url(#a)"/>
-        <path fill="#8d6e63" fill-rule="evenodd" stroke="#8d6e63" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M44-22H28l-6 6H4V6h40z" clip-path="url(#b)" filter="url(#c)" transform="matrix(-1 0 0 1 48 0)"/>
-        <path fill="none" stroke="#795548" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15-12h18V2H15z"/>
-        <circle fill="#795548" fill-rule="evenodd" cx="19" cy="-8" r="2"/>
-        <path fill="#795548" fill-rule="evenodd" stroke="#795548" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 2V1l4-4 3 3 6-6 5 5v3z"/>
+    <g fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+        <path fill="#795548" stroke="#795548" d="M4-22V6h40v-28H28l-4 4-4-4H4z" filter="url(#a)" transform="translate(0 32)"/>
+        <path fill="#8d6e63" stroke="#8d6e63" d="M44-22H28l-6 6H4V6h40z" clip-path="url(#b)" filter="url(#a)" transform="matrix(-1 0 0 1 48 32)"/>
     </g>
+    <path style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;shape-padding:0;isolation:auto;mix-blend-mode:normal" d="M15 19a1 1 0 0 0-1 1v14a1 1 0 0 0 .078.389 1 1 0 0 0 .213.316l.004.004a1 1 0 0 0 .305.205l.021.01A1 1 0 0 0 15 35h18a1 1 0 0 0 .389-.078 1 1 0 0 0 .316-.213 1 1 0 0 0 .004-.004 1 1 0 0 0 .205-.305l.01-.021A1 1 0 0 0 34 34V20a1 1 0 0 0-1-1zm1 2h16v7.586l-3.293-3.293a1 1 0 0 0-1.414 0L22 30.586l-2.293-2.293a1 1 0 0 0-1.414 0L16 30.586zm3 1a2 2 0 0 0-2 2 2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2z" color="#000" font-weight="400" font-family="sans-serif" white-space="normal" overflow="visible" fill="#795548" enable-background="accumulate"/>
 </svg>
