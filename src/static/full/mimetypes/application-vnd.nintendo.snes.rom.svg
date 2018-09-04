@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+    <defs>
+        <filter id="a">
+            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
+            <feOffset dy=".4"/>
+            <feComponentTransfer>
+                <feFuncA slope=".3" type="linear"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <rect width="44" height="32" x="2" y="8" rx="2" ry="2" fill="#e0e0e0" filter="url(#a)"/>
+    <path style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;shape-padding:0;isolation:auto;mix-blend-mode:normal" d="M16 28c-2.705-.038-2.705 4.038 0 4h16c2.705.038 2.705-4.038 0-4z" color="#000" font-weight="400" font-family="sans-serif" white-space="normal" overflow="visible" fill="#bdbdbd" enable-background="accumulate"/>
+    <path d="M6 34a2 2 0 0 0-2 2 2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2zm36 0a2 2 0 0 0-2 2 2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2z" fill="#bdbdbd"/>
+    <path style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;shape-padding:0;isolation:auto;mix-blend-mode:normal" d="M10 8v32h2V8h-2zm26 0v32h2V8h-2z" color="#000" font-weight="400" font-family="sans-serif" white-space="normal" overflow="visible" fill="#bdbdbd" enable-background="accumulate"/>
+    <rect width="36" height="14" x="6" y="10" rx="2" ry="2" fill="#212121"/>
+    <path d="M23 13a2 2 0 0 0-2 2 2 2 0 0 1 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2z" fill="#2196f3"/>
+    <ellipse cx="20" cy="18" rx="2" ry="1" fill="#4caf50"/>
+    <ellipse cy="20" cx="25" rx="2" ry="1" fill="#ffc107"/>
+    <path d="M28 15a2 2 0 0 0-2 2 2 2 0 0 1 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2z" fill="#f44336"/>
+</svg>
