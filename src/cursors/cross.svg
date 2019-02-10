@@ -14,5 +14,5 @@
     </defs>
     <path d="M3 2c-.554 0-1 .446-1 1v9a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2H3z" fill="#212121" filter="url(#a)"/>
     <path d="M4 4v8a8 8 0 0 0 8 8 8 8 0 0 0 8-8 8 8 0 0 0-8-8H4z" fill="#fff"/>
-    <path d="M12 4v5M20 12h-5M12 20v-5M4 12h5" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M12 4v5m8 3h-5m-3 8v-5m-8-3h5" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
