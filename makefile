@@ -1,10 +1,10 @@
 XDG_DATA_HOME ?= ~/.local/share
 
-BUILD_DIR ?= $(CURDIR)/build/
+BUILD_DIR ?= $(CURDIR)/build
 export BUILD_DIR
 
-INSTALL_DIR ?= $(XDG_DATA_HOME)/icon
-INSTALL_DIR := $(INSTALL_DIR)/Mato/
+INSTALL_DIR ?= $(XDG_DATA_HOME)/icons
+INSTALL_DIR := $(INSTALL_DIR)/Mato
 export INSTALL_DIR
 
 TEMP_DIR ?= /tmp
