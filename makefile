@@ -4,7 +4,6 @@ BUILD_DIR ?= $(CURDIR)/build
 export BUILD_DIR
 
 INSTALL_DIR ?= $(XDG_DATA_HOME)/icons
-INSTALL_DIR := $(INSTALL_DIR)/Mato
 export INSTALL_DIR
 
 TEMP_DIR ?= /tmp
@@ -21,9 +20,9 @@ build:
 	$(MAKE) -C src
 
 install:
-	mkdir -p $(INSTALL_DIR)
-	rm -rf $(INSTALL_DIR)
-	cp -r $(BUILD_DIR) $(INSTALL_DIR)
+	mkdir -p $(INSTALL_DIR)/Mato
+	rm -rf $(INSTALL_DIR)/Mato
+	cp -r $(BUILD_DIR) $(INSTALL_DIR)/Mato
 
 clean:
 	rm -rf $(BUILD_DIR)
