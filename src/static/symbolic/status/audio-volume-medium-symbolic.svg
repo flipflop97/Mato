@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16">
-    <path fill-rule="evenodd" d="M5.97 0a1 1 0 0 0-.677.293l-4 4A1 1 0 0 0 1 5v6a1 1 0 0 0 .293.707l4 4C5.923 16.337 7 15.891 7 15V1a1 1 0 0 0-1.03-1z"/>
+<svg xmlns="http://www.w3.org/2000/svg" height="16" width="16">
     <path d="M9.03 3a1 1 0 1 0-.012 2A2.986 2.986 0 0 1 12 8.01 2.984 2.984 0 0 1 9 11a1 1 0 1 0 0 2c2.744 0 4.992-2.24 5-4.984.008-2.744-2.227-5-4.97-5.016z"/>
     <path d="M9 6a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1c1.093 0 2-.907 2-2s-.907-2-2-2z"/>
+    <path d="M5.97 0a1 1 0 0 0-.677.293l-4 4A1 1 0 0 0 1 5v6a1 1 0 0 0 .293.707l4 4A1 1 0 0 0 7 15V1a1 1 0 0 0-1.03-1zM5 3.414v9.172l-2-2V5.414z" style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1" color="#000" font-weight="400" font-family="sans-serif" overflow="visible"/>
 </svg>
